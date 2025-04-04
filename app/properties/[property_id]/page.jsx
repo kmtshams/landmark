@@ -8,10 +8,6 @@ import path from 'path';
 const PropertyPage = async ({ params }) => {
     const { property_id } = await params;
     const property = properties.at(Number(property_id));
-
-    const imagesPath = path.join(process.cwd(), 'public', 'properties', property.id.toString(), 'pics');
-    const images = fs.readdirSync(imagesPath);
-
     return (
         <main>
             <div className="min-h-screen flex items-center justify-start p-8 bg-red-100 bg-cover bg-center relative" style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),  url(/properties/${property.id}/showcase.jpeg)` }}>
@@ -28,8 +24,8 @@ const PropertyPage = async ({ params }) => {
                 </div>
                 <div className="w-1/2 ">                
                     <div className="image-gallery flex flex-wrap justify-center">
-                        {images.map((image, index) => (
-                            <img key={index} src={`/properties/${property.id}/pics/${image}`} alt={`Property Image ${index + 1}`} className="property-image w-75 h-75 m-5" />
+                        {Array.from({ length: property.numPics }, (_, index) => (
+                            <img key={index} src={`/properties/${property.id}/pics/${index}.jpeg`} alt={`Property Image ${index + 1}`} className="property-image w-75 h-75 m-5" />
                         ))}
                     </div>
                 </div>  
