@@ -1,0 +1,42 @@
+import React from 'react';
+import properties from '../../../public/properties/properties.json';
+import fs from 'fs';
+import path from 'path';
+
+// console.log("properties:", properties)
+
+const PropertyPage = async ({ params }) => {
+    const { property_id } = await params;
+    const property = properties.at(Number(property_id));
+
+    const imagesPath = path.join(process.cwd(), 'public', 'properties', property.id.toString(), 'pics');
+    const images = fs.readdirSync(imagesPath);
+
+    return (
+        <main>
+            <div className="min-h-screen flex items-center justify-start p-8 bg-red-100 bg-cover bg-center relative" style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),  url(/properties/${property.id}/showcase.jpeg)` }}>
+                <div className="max-w-2xl text-white bg-black/30 backdrop-blur-sm w-1/2 p-10">
+                <p className="text-left text-2xl">{property?.location}</p>
+                <h1 className="mb-4 text-6xl font-bold text-left">{property?.name}</h1>
+                <p className="text-left text-xl">{ property?.guests} Guests |  {property?.beds} Beds | {property?.baths} Baths | {property?.sqft} sqft</p>
+                </div>
+            </div >
+            <div className="flex flex-wrap min-h-screen p-8 pt-30 bg-cover bg-center relative bg-black">
+                <div className="w-1/2">                
+                    <h1 className='text-white text-2xl font-bold mb-5'>Description</h1>
+                    <pre className="description whitespace-pre-wrap break-words">{property.description}</pre>
+                </div>
+                <div className="w-1/2 ">                
+                    <div className="image-gallery flex flex-wrap justify-center">
+                        {images.map((image, index) => (
+                            <img key={index} src={`/properties/${property.id}/pics/${image}`} alt={`Property Image ${index + 1}`} className="property-image w-75 h-75 m-5" />
+                        ))}
+                    </div>
+                </div>  
+            </div>
+           
+        </main>
+    );
+};
+
+export default PropertyPage;
