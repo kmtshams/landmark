@@ -53,7 +53,7 @@ const PropertyContactForm = ({property}) => {
         checkin: dayjs(formData.checkin).format('MM-DD-YYYY'),
         checkout: dayjs(formData.checkout).format('MM-DD-YYYY'),
         "property name": property.name,
-        "property location": property.location,
+        "property location": property.location?.city + ', ' + property.location?.state,
     }
     sendEmailMessage(data)
     setFormData({

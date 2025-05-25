@@ -1,6 +1,5 @@
 import PropertyCard from "@/components/PropertyCard";
-import properties from '../../public/properties/properties.json';
-import ContactForm from "@/components/ContactForm";
+import properties from '../../public/properties.json';
 
 export default function Properties() {
 

@@ -41,7 +41,7 @@ const PropertyCard = ({ property }) => {
                         </div>
                     )}
                     <h2 className="text-white text-lg font-bold">{property.name}</h2>
-                    <h3 className="text-white text-sm">{property.location}</h3>
+                    <h3 className="text-white text-sm">{property.location?.city}, {property.location?.state}</h3>
                     <span className="text-white text-xs pr-2">{property.beds} Beds</span>
                     <span className="text-white text-xs pr-2">{property.baths} Baths</span>
                     <span className="text-white text-xs">{property.sqft} sqft</span>
