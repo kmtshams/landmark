@@ -11,8 +11,7 @@ const ContactForm = () => {
   })
 
   const handleSubmit = (e) => {
-    console.log("form submit")
-    console.log("formdata", formData)
+
     e.preventDefault()
     sendEmailMessage(formData)
   }
@@ -26,9 +25,10 @@ const ContactForm = () => {
   }
 
   return (
+    <div className=" text-white bg-black/30 backdrop-blur-sm p-10 rounded-lg">
     <form onSubmit={handleSubmit} className="space-y-6">
       <div>
-
+        <label htmlFor="name" className="block mb-1 text-white text-lg font-medium">Name</label>  
         <input
           type="text"
           id="name"
@@ -44,7 +44,7 @@ const ContactForm = () => {
       </div>
 
       <div>
-
+        <label htmlFor="email" className="block mb-1 text-white text-lg font-medium">Email Address</label>
         <input
           type="email"
           id="email"
@@ -60,7 +60,7 @@ const ContactForm = () => {
       </div>
 
       <div>
-
+        <label htmlFor="phone" className="block mb-1 text-white text-lg font-medium">Phone Number</label>
         <input
           type="tel"
           id="phone"
@@ -75,7 +75,7 @@ const ContactForm = () => {
       </div>
 
       <div>
-
+        <label htmlFor="message" className="block mb-1 text-white text-lg font-medium">Message</label>
         <textarea
           id="message"
           name="message"
@@ -92,12 +92,13 @@ const ContactForm = () => {
 
       <button
         type="submit"
-        className="w-full bg-white text-black py-2 px-4 rounded-md hover:bg-gray-100 
-                 transition duration-200 font-medium cursor-pointer"
+        className="w-full bg-white text-black py-2 px-4 rounded-md hover:bg-gray-300 
+                 transition duration-200 font-medium cursor-pointer text-lg"
       >
         Send Message
       </button>
     </form>
+    </div>
   )
 }
 

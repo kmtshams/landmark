@@ -39,16 +39,22 @@ const Navbar = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-4">
               <Link 
-                href="/" 
-                className="text-white hover:text-gray-300 px-3 py-2 rounded-md"
-              >
-                About Us
-              </Link>
-              <Link 
                 href="/properties" 
                 className="text-white hover:text-gray-300 px-3 py-2 rounded-md"
               >
                 Properties
+              </Link>
+              <Link 
+                href="/cities" 
+                className="text-white hover:text-gray-300 px-3 py-2 rounded-md"
+              >
+                Cities
+              </Link>
+              <Link 
+                href="/staging" 
+                className="text-white hover:text-gray-300 px-3 py-2 rounded-md"
+              >
+                Staging
               </Link>
               <Link 
                 href="/contact" 
@@ -56,7 +62,6 @@ const Navbar = () => {
               >
                 Contact
               </Link>
-              
             </div>
           </div>
 
@@ -115,14 +120,14 @@ const Navbar = () => {
                 className="text-white hover:text-gray-300 block px-3 py-2 rounded-md"
                 onClick={() => setIsMenuOpen(false)}
               >
-                For Business
+                Staging
               </Link>
               <Link
-                href="/for-landlords"
+                href="/contact"
                 className="text-white hover:text-gray-300 block px-3 py-2 rounded-md"
                 onClick={() => setIsMenuOpen(false)}
               >
-                For Landlords
+                Contact
               </Link>
             </div>
           </div>
