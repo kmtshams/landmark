@@ -27,7 +27,7 @@ const DetailsItem = ({ summary, description, open=false}) => {
       </div>
       {isOpen && (
         <div
-        style={{ marginTop: "14px", fontWeight: 200, fontSize: "1.25rem" }}
+        style={{ marginTop: "14px", fontWeight: 200, fontSize: "1.25rem", listStyleType: "✔" }}
         dangerouslySetInnerHTML={{ __html: description }}
       />
       )}

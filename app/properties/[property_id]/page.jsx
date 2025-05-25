@@ -36,7 +36,7 @@ const PropertyPage = async ({ params }) => {
             </div>
             <div className="min-h-screen flex items-center justify-center bg-cover bg-center p-8 pt-30 relative max-w-2xl mx-auto">
                 <div className="w-full">
-                    <h1 className="mb-4 text-6xl font-bold text-center pb-15">Get in touch</h1>
+                    <h1 className="mb-4 text-6xl  text-center pb-15">Get in touch</h1>
                     <PropertyContactForm />
                 </div>
             </div>
