@@ -30,9 +30,7 @@ const PropertyPage = async ({ params }) => {
             <PropertyGallery property={property} />
 
             <div className="flex flex-wrap px-20 pt-20 bg-cover bg-center relative bg-black justify-center">
-                {/* <h1 className='text-white text-2xl font-bold mb-5'>Description</h1> */}
-                {/* <pre className="description whitespace-pre-wrap break-words">{cities[property.location.city].description}</pre> */}
-                <Details details={[{summary:"Overview", description: cities[property.location.city].description}, ...details]} />
+                <Details details={[{summary:"Overview", description: property.description}, ...details]} />
             </div>
             <div className="min-h-screen flex items-center justify-center bg-cover bg-center p-8 pt-30 relative max-w-2xl mx-auto">
                 <div className="w-full">

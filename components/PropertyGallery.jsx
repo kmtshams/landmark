@@ -5,10 +5,10 @@ import PropertyImage from '@/components/PropertyImage'; // or change to a generi
 const PropertyGallery = ({ property }) => {
   const [showAll, setShowAll] = useState(false);
   const totalImages = property.numPics;
-  const displayedImages = showAll ? totalImages : Math.min(3, totalImages);
+  const displayedImages = showAll ? totalImages : Math.min(6, totalImages);
 
   return (
-    <div className="flex flex-wrap px-5 md:px-20 -mt-[100px] bg-cover bg-center relative bg-black justify-center">
+    <div className="flex flex-wrap px-5 md:px-20 bg-cover bg-center relative bg-black justify-center">
       <div className="relative w-full">
         <div className="w-full pb-12 relative z-0">
           <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
@@ -23,7 +23,7 @@ const PropertyGallery = ({ property }) => {
           </div>
         </div>
 
-        {totalImages > 3 && (
+        {totalImages > 6 && (
           <div className="flex justify-center">
             <button
               onClick={() => setShowAll(!showAll)}

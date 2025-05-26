@@ -12,7 +12,7 @@ const PropertyCard = ({ property }) => {
                 style={{ 
                     backgroundImage: isHovered 
                         ? `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(/properties/${property.id}/showcase.jpeg)`
-                        : `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(/properties/${property.id}/showcase.jpeg)`
+                        : `linear-gradient(180deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.72) 100%), url(/properties/${property.id}/showcase.jpeg)`
                 }}
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}

@@ -7,7 +7,7 @@ export default function Properties() {
     <main>
       
       <div className="min-h-screen p-8 pt-30  bg-cover bg-center relative bg--[#1f3420]" >
-      <h1 className="mb-4 text-3xl md:text-6xl font-bold text-center pb-15">Some of our properties</h1>
+      <h1 className="mb-4 text-3xl md:text-6xl text-center pb-15">All of our luxury properties.</h1>
 
           <div className="flex flex-wrap space-x-12 items-center justify-center">
             {properties.map((property, index) => (
