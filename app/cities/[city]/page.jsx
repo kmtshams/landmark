@@ -1,17 +1,15 @@
 import React from 'react';
 import cities from '../../../public/cities.json';
-
+import properties from '../../../public/properties.json';
+import PropertyCard from "@/components/PropertyCard";
 
 const CityPage = async ({ params }) => {
     const { city } = await params;
-    console.log("params", params)
-    console.log("city", city)
     const rawCity = params.city;
-    console.log("rawCity", rawCity)
     const decodedCity = decodeURIComponent(rawCity);
-    console.log("decodedCity", decodedCity)
     const cityData = cities[decodedCity];
-    console.log("cityData", cityData)
+    const cityProperties = properties.filter((property) => property.location.city === cityData.city);
+
 
     return (
         <main>
@@ -24,6 +22,22 @@ const CityPage = async ({ params }) => {
                     <p className="text-left text-base md:text-xl">{cityData.description}</p>
                 </div>
             </div>
+
+            {cityProperties.length > 0 && (
+                <h1 className="mb-4 text-3xl md:text-6xl text-center pb-15">Check out our properties in {cityData.city}.</h1>
+            )}
+
+            {cityProperties.length > 0 && (
+                <div className="flex flex-wrap space-x-12 items-center justify-center">
+                    {cityProperties.map((property, index) => (
+                        <PropertyCard key={index} property={property} />
+                    ))}
+                </div>
+            )}
+
+            {cityProperties.length === 0 && (
+                <p className="text-center text-base md:text-xl">No properties found in {cityData.city}.</p>
+            )}
         </main>
     );
 };

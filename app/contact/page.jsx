@@ -11,10 +11,9 @@ export default function Contact() {
             <h1 className="mb-4 text-6xl font-bold">Get in touch</h1>
             <div className="space-y-4 text-lg">
               <div>
-                <h2 className="text-2xl font-semibold mb-2">Contact Information</h2>
-                <p>Email: info@staylandmark.com</p>
-                <p>Phone: +1 (949) 832-7199</p>
-                <p className="mb-0">Address: 2211 Michelson Dr Suite 900<br/>Irvine, CA 92612</p>
+                <p className="mb-0">(949) 832-7199</p>
+                <p className="mb-0">info@staylandmark.com</p>
+                <p className="mb-0">2211 Michelson Dr Suite 900<br/>Irvine, CA 92612</p>
               </div>
             </div>
           </div>

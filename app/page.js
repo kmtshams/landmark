@@ -10,7 +10,7 @@ export default function Home() {
         className="min-h-screen md:h-[50vh] flex items-center justify-start p-6 md:p-8 bg-cover bg-center relative"
         style={{backgroundImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(/1.jpg)'}}
       >
-        <div className="w-full md:w-1/2  max-w-2xl text-white bg-landmark-green/30 backdrop-blur-sm p-6 md:p-10">
+        <div className="w-full md:w-1/2  max-w-2xl text-white bg-landmark-green/30 backdrop-blur-sm p-6 md:p-10 mt-80">
           <h1 className="mb-4 text-4xl md:text-6xl font-bold">
             Luxury living with no limits.
           </h1>

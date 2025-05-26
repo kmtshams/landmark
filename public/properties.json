@@ -65,10 +65,10 @@
         "baths": 1,
         "sqft": 950,
         "location": {
-          "city": "Los Angeles",
-          "state": "CA"
+          "city": "Seattle",
+          "state": "WA"
         },
-        "description": "Wake up to panoramic skyline views in this chic high-rise apartment in Downtown LA. With floor-to-ceiling windows, stainless steel appliances, and modern furnishings, this space offers the ideal blend of comfort and style. Walk to the Arts District, restaurants, and nightlife. Building includes a rooftop pool, gym, and secure parking.",
+        "description": "Discover urban living at its finest in this contemporary one-bedroom unit in the heart of downtown Seattle. Nestled steps from Pike Place Market, the waterfront, and the city's top restaurants and tech hubs, this sleek apartment offers panoramic views, high-end finishes, and access to premium amenities like a rooftop lounge, fitness center, and co-working space. Enjoy walkable convenience and the vibrant energy of Seattle right at your doorstep.",
         "guests": 4,
         "numPics": 15,
         "review": {
@@ -88,7 +88,7 @@
           "city": "San Diego",
           "state": "CA"
         },
-        "description": "Escape to this tranquil coastal home just 10 minutes from the beach. This spacious unit features boho-inspired decor, a private patio, and a fully stocked kitchen. Ideal for families or remote workers. Community includes pool access and a dog park.",
+        "description": "Live in the heart of San Diego in this modern one-bedroom unit, perfectly located just minutes from the Gaslamp Quarter, Petco Park, and the waterfront. Surrounded by top dining, entertainment, and cultural hotspots, this bright and open space offers the best of city living with resort-style amenities like a rooftop deck, fitness center, and secure parking. Whether you're walking to coffee shops or catching a sunset by the bay, everything you need is right outside your door.",
         "guests": 6,
         "numPics": 11,
         "review": {
@@ -108,7 +108,7 @@
           "city": "Jersey City",
           "state": "NJ"
         },
-        "description": "Stay productive and comfortable in this stylish 2-bedroom apartment near major tech campuses. Fast Wi-Fi, smart TVs, and ergonomic workstations make it perfect for business travelers. Enjoy a quiet neighborhood with nearby cafes and parks.",
+        "description": "Experience modern urban living in this stylish one-bedroom apartment located in the heart of Downtown Jersey City. Just steps from the Grove Street PATH station, this residence offers seamless access to Manhattan, while being surrounded by vibrant dining, shopping, and cultural attractions. The apartment features sleek finishes, large windows that flood the space with natural light, and access to amenities such as a fitness center and rooftop lounge. With the waterfront, parks, and entertainment venues nearby, this home provides the perfect blend of convenience and contemporary comfort.",
         "guests": 5,
         "numPics": 13,
         "review": {
@@ -128,7 +128,7 @@
           "city": "New York City",
           "state": "NY"
         },
-        "description": "Luxury desert living at its finest in this spacious 4-bedroom home. Featuring a private pool, outdoor firepit, and panoramic canyon views, it’s ideal for group getaways. Just minutes from golf courses, hiking trails, and upscale shopping.",
+        "description": "Live at the center of it all in this sleek one-bedroom apartment in Downtown Manhattan, steps from Tribeca, SoHo, and the West Village. Enjoy floor-to-ceiling windows with skyline views, premium finishes, and access to top-tier amenities like a rooftop lounge, fitness center, and 24-hour concierge. With world-class dining, shopping, and transit just outside your door, this is quintessential NYC living.",
         "guests": 8,
         "numPics": 9,
         "review": {
@@ -148,7 +148,7 @@
           "city": "Miami",
           "state": "FL"
         },
-        "description": "Bask in golden sunsets from this sleek Miami Beach loft just steps from the ocean. This airy space boasts modern design, a chef's kitchen, and a private balcony. Amenities include a rooftop pool, 24-hour concierge, and valet parking.",
+        "description": "Live in the vibrant core of Downtown Miami with this sleek one-bedroom apartment offering panoramic views and resort-style amenities. Situated steps from Bayfront Park, the Metromover, and the lively Brickell and Wynwood districts, this modern residence features floor-to-ceiling windows, high ceilings, and designer finishes. Residents enjoy access to a rooftop pool, fitness center, co-working spaces, and concierge services, all within a pet-friendly community. With the beach, arts venues, and top dining just minutes away, this apartment delivers the ultimate Miami lifestyle.",
         "guests": 4,
         "numPics": 15,
         "review": {
@@ -168,7 +168,7 @@
             "city": "Denver",
             "state": "CO"
           },
-          "description": "Enjoy crisp mountain air from this contemporary home in the heart of Denver. Features include heated floors, a spacious deck with BBQ, and a smart home setup. Located near breweries, trails, and public transit.",
+          "description": "Enjoy modern city living in this stylish one-bedroom unit located in the heart of downtown Denver. Just a short walk from Union Station, Larimer Square, and Coors Field, this vibrant home places you at the center of the city’s best dining, nightlife, and cultural attractions. With spacious interiors, upscale finishes, and amenities like a fitness center and rooftop terrace, this unit offers both comfort and connection in one of Denver’s most sought-after neighborhoods.",
           "guests": 7,
           "numPics": 6,
           "review": {
@@ -188,7 +188,7 @@
             "city": "Boston",
             "state": "MA"
           },
-          "description": "This waterfront unit in Boston Seaport offers unbeatable harbor views, luxury finishes, and walkable access to dining and culture. Features a gourmet kitchen, marble bath, and a balcony for evening sunsets.",
+          "description": "Step into classic charm and contemporary comfort in this elegant one-bedroom unit in the heart of downtown Boston. Surrounded by historic landmarks, premier universities, and vibrant neighborhoods like Back Bay and Beacon Hill, this residence offers unmatched access to the city's rich culture and modern conveniences. Featuring refined finishes, natural light, and amenities like a resident lounge and rooftop views, this home is the perfect blend of heritage and high-end urban living.",
           "guests": 2,
           "numPics": 10,
           "review": {
@@ -208,7 +208,7 @@
             "city": "San Diego",
             "state": "CA"
           },
-          "description": "Relax under the desert sun in this mid-century modern gem. Includes a private pool, vibrant decor, and views of the San Jacinto Mountains. Ideal for retreats and weekend getaways.",
+          "description": "Live in the heart of San Diego in this modern one-bedroom unit, perfectly located just minutes from the Gaslamp Quarter, Petco Park, and the waterfront. Surrounded by top dining, entertainment, and cultural hotspots, this bright and open space offers the best of city living with resort-style amenities like a rooftop deck, fitness center, and secure parking. Whether you're walking to coffee shops or catching a sunset by the bay, everything you need is right outside your door.",
           "guests": 6,
           "numPics": 10,
           "review": {
@@ -228,7 +228,7 @@
             "city": "Seattle",
             "state": "WA"
           },
-          "description": "Located in Belltown, this modern condo offers views of the Space Needle and Puget Sound. Enjoy high ceilings, smart features, and a short walk to Pike Place and waterfront dining.",
+          "description": "Discover urban living at its finest in this contemporary one-bedroom unit in the heart of downtown Seattle. Nestled steps from Pike Place Market, the waterfront, and the city's top restaurants and tech hubs, this sleek apartment offers panoramic views, high-end finishes, and access to premium amenities like a rooftop lounge, fitness center, and co-working space. Enjoy walkable convenience and the vibrant energy of Seattle right at your doorstep.",
           "guests": 4,
           "numPics": 7,
           "review": {
@@ -248,7 +248,7 @@
             "city": "Los Angeles",
             "state": "CA"
           },
-          "description": "Step into style in this polished Gold Coast apartment featuring rich hardwood floors, large windows, and elegant finishes. Steps from shopping, restaurants, and Lake Michigan.",
+          "description": "Experience the vibrant heart of Downtown Los Angeles in this stylish one-bedroom unit, perfectly situated in the center of it all. Just steps away from iconic attractions like LA Live, the Crypto.com Arena, and the bustling restaurants of South Park, this modern space offers the ultimate urban lifestyle. With sleek finishes, and amenities like a fitness center and rooftop lounge, you’ll enjoy comfort and convenience in one of LA’s most dynamic neighborhoods.",
           "guests": 2,
           "numPics": 3,
           "review": {
@@ -268,7 +268,7 @@
             "city": "Los Angeles",
             "state": "CA"
           },
-          "description": "Stay within walking distance to the National Mall in this charming apartment featuring vintage décor, modern amenities, and a peaceful courtyard. Ideal for business or pleasure.",
+          "description": "Experience the vibrant heart of Downtown Los Angeles in this stylish one-bedroom unit, perfectly situated in the center of it all. Just steps away from iconic attractions like LA Live, the Crypto.com Arena, and the bustling restaurants of South Park, this modern space offers the ultimate urban lifestyle. With sleek finishes, and amenities like a fitness center and rooftop lounge, you’ll enjoy comfort and convenience in one of LA’s most dynamic neighborhoods.",
           "guests": 4,
           "numPics": 3,
           "review": {
@@ -288,7 +288,7 @@
             "city": "Los Angeles",
             "state": "CA"
           },
-          "description": "Cozy up in this bright Marina District apartment featuring elegant touches and just blocks from Crissy Field. Includes a reading nook, breakfast bar, and fast internet.",
+          "description": "Experience the vibrant heart of Downtown Los Angeles in this stylish one-bedroom unit, perfectly situated in the center of it all. Just steps away from iconic attractions like LA Live, the Crypto.com Arena, and the bustling restaurants of South Park, this modern space offers the ultimate urban lifestyle. With sleek finishes, and amenities like a fitness center and rooftop lounge, you’ll enjoy comfort and convenience in one of LA’s most dynamic neighborhoods.",
           "guests": 2,
           "numPics": 3,
           "review": {
@@ -308,7 +308,7 @@
             "city": "Denver",
             "state": "CO"
           },
-          "description": "Located near Lady Bird Lake, this tranquil home features a private garden, outdoor grill, and modern farmhouse design. Perfect for both relaxation and downtown access.",
+          "description": "Enjoy modern city living in this stylish one-bedroom unit located in the heart of downtown Denver. Just a short walk from Union Station, Larimer Square, and Coors Field, this vibrant home places you at the center of the city’s best dining, nightlife, and cultural attractions. With spacious interiors, upscale finishes, and amenities like a fitness center and rooftop terrace, this unit offers both comfort and connection in one of Denver’s most sought-after neighborhoods.",
           "guests": 6,
           "numPics": 12,
           "review": {

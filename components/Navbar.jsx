@@ -30,13 +30,13 @@ const Navbar = () => {
         <div className="flex justify-between h-16 items-center max-w-7xl mx-auto">
           {/* Logo/Brand */}
           <div className="flex-shrink-0">
-            <Link href="/" className="text-xl font-bold text-white tracking-wide uppercase ">
+            <Link href="/" className="text-3xl font-bold text-white tracking-wide uppercase ">
               Landmark<sup>®</sup>
             </Link>
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:block">
+          <div className="hidden md:block text-lg">
             <div className="ml-10 flex items-center space-x-4">
               <Link 
                 href="/properties" 
