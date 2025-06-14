@@ -8,7 +8,7 @@ export default function Home() {
     <main>
       <div
         className="min-h-screen md:h-[50vh] flex items-center justify-start p-6 md:p-8 bg-cover bg-center relative"
-        style={{backgroundImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(/1.jpg)'}}
+        style={{backgroundImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(/1.png)'}}
       >
         <div className="w-full md:w-1/2  max-w-2xl text-white bg-landmark-green/30 backdrop-blur-sm p-6 md:p-10 mt-80">
           <h1 className="mb-4 text-4xl md:text-6xl font-bold">
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="min-h-screen flex items-center justify-start p-8 bg-red-100 bg-cover bg-center relative" style={{ backgroundImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(/3.jpg)' }}>
+      <div className="min-h-screen flex items-center justify-start p-8 bg-red-100 bg-cover bg-center relative" style={{ backgroundImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(/3.png)' }}>
         <div className="max-w-2xl text-white bg-black/30 backdrop-blur-sm w-1/2 p-10 mt-80">
           <h1 className="mb-4 text-6xl font-bold">About us</h1>
           <p className="text-left text-lg">
@@ -75,7 +75,7 @@ export default function Home() {
       </div>
 
 
-      <div className="max-h-[40vh] px-30 py-10 flex items-start justify-start flex-col bg-cover bg-center relative bg-landmark-green" 
+      <div className="max-h-[40vh] px-30 py-20 mt-30 flex items-start justify-start flex-col bg-cover bg-center relative bg-landmark-green" 
       style={{backgroundImage: 'linear-gradient(260deg,rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.72) 100%), url(/5.webp)'}}
       >
         <h1 className="mb-4 text-3xl font-bold">Live, Work, Stay in Luxury.</h1>
