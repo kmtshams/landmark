@@ -12,20 +12,28 @@ export default function Home() {
       >
         <div className="w-full md:w-1/2  max-w-2xl text-white bg-landmark-green/30 backdrop-blur-sm p-6 md:p-10 mt-80">
           <h1 className="mb-4 text-4xl md:text-6xl font-bold">
-            Luxury living with no limits.
+            Elevating stays with comfort and luxury.
           </h1>
-          <p className="text-left text-base md:text-lg">
-            Incredible views, modern spaces, pristine cleanliness. Landmark<sup>®</sup> focuses on creating luxury experiences in vibrant communities all around the world.
+          <p className="text-left text-lg">
+            Welcome to Landmark Residences - your premier destination for refined, month-to-month living. 
+            Enjoy the freedom of flexible stays in beautifully designed, fully furnished apartments crafted
+            for your comfort. Clear pricing. No commitments. Just effortless living.          
           </p>
         </div>
       </div>
-
       <div className="min-h-screen flex items-center justify-start p-8 bg-red-100 bg-cover bg-center relative" style={{ backgroundImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(/3.png)' }}>
         <div className="max-w-2xl text-white bg-black/30 backdrop-blur-sm w-1/2 p-10 mt-80">
           <h1 className="mb-4 text-6xl font-bold">About us</h1>
-          <p className="text-left text-lg">
-            Incredible views, modern spaces, pristine cleanliness. Landmark<sup>®</sup> focuses on creating luxury experiences in vibrant communities all around the world.
-          </p>
+          <p className="text-left text-xl">
+            At Landmark Residences, corporate housing is reimagined—far from the ordinary, 
+            we deliver an elevated living experience that blends luxury, comfort, and intentional
+            design. Each residence is thoughtfully curated with high-end finishes, modern aesthetics, 
+            and warm, inviting interiors that go beyond functionality to inspire a sense of belonging. 
+            We don’t just provide a place to stay; we craft an environment where lasting memories are made.
+            Every property is a “landmark” in its own right—distinctive, unforgettable, and designed 
+            to stand out—because creating exceptional living spaces is not just what we do, it’s what 
+            we stand for. With every detail meticulously considered, our guests enjoy a level of hospitality 
+            that exceeds the standard five-star experience—this is luxury living, refined for the modern traveler.          </p>
         </div>
       </div>
 
@@ -48,12 +56,12 @@ export default function Home() {
         <h1 className="mb-4 text-6xl text-center">Real people are looking after you!</h1>
         <h2 className="text-center text-2xl">Never feel left alone with a problem, our team will accommodate</h2>
         <h2 className="text-center text-2xl">whatever request is needed to make your stay perfect.</h2>
-        <img src="/4.png" alt="" className="w-full px-[2rem] pt-10" />
+        <img src="/4.jpg" alt="" className="w-full px-[5rem] my-20 h-[400px] object-cover" />
         <div className="flex justify-center flex-wrap items-start gap-15">
           <div className="w-[400px] flex items-center ">
             <img src="/phone.svg" alt="" className="w-full w-15 h-15 mr-5" />
             <div>
-              <h2 className="text-2xl font-bold ">Personal Assistant</h2>
+              <h2 className="text-2xl font-bold ">Local Team</h2>
               <p className="text-md text-gray-400">Lockouts, check-in problems, noise complaints - our team works around the clock to look after you.</p>
             </div>
           </div>

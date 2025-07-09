@@ -38,6 +38,12 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:block text-lg">
             <div className="ml-10 flex items-center space-x-4">
+            <Link 
+                href="/about" 
+                className="text-white hover:text-gray-300 px-3 py-2 rounded-md"
+              >
+                About Us
+              </Link>
               <Link 
                 href="/properties" 
                 className="text-white hover:text-gray-300 px-3 py-2 rounded-md"
@@ -102,6 +108,13 @@ const Navbar = () => {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-[rgba(0,0,0,0.3)]">
               <Link
+                href="/about"
+                className="text-white hover:text-gray-300 block px-3 py-2 rounded-md"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                About Us
+              </Link>
+              <Link
                 href="/properties"
                 className="text-white hover:text-gray-300 block px-3 py-2 rounded-md"
                 onClick={() => setIsMenuOpen(false)}
@@ -116,7 +129,7 @@ const Navbar = () => {
                 Cities
               </Link>
               <Link
-                href="/for-business"
+                href="/staging"
                 className="text-white hover:text-gray-300 block px-3 py-2 rounded-md"
                 onClick={() => setIsMenuOpen(false)}
               >
