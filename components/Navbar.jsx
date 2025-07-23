@@ -26,7 +26,7 @@ const Navbar = () => {
 
   return (
     <nav className={`fixed w-full top-0 z-50 transition-transform duration-300 ${show ? 'translate-y-0' : '-translate-y-full'}`}>
-      <div className="bg-black/20 backdrop-blur-sm w-full px-4 sm:px-6 lg:px-8">
+      <div className="bg-[#69664c]/45 w-full px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center max-w-7xl mx-auto">
           {/* Logo/Brand */}
           <div className="flex-shrink-0">

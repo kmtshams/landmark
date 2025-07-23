@@ -2,23 +2,23 @@
     "Los Angeles": {
       "city": "Los Angeles",
       "state": "CA",
-      "image": "la.jpg",
+      "image": "/city2.jpg",
       "numProperties": 5,
-      "description": "A global hub for entertainment, fashion, and culture, Los Angeles is where vibrant city life meets coastal charm. From sunny beaches to the glamour of Hollywood, LA offers a dynamic mix of iconic landmarks, world-class dining, and diverse neighborhoods that cater to every lifestyle."
+      "description": "As one of the most dynamic cities in the world, Los Angeles offers an unmatched blend of business, entertainment, culture, and coastal living. Whether you're traveling for work, relocating temporarily, or planning an extended stay, LA delivers convenience, diversity, and luxury at every corner. From major business districts and world-renowned universities to scenic beaches and cultural landmarks, the City of Angels is designed for those who want it all.With a vast network of neighborhoods—from Westwood and Beverly Hills to Downtown and Santa Monica—Los Angeles is home to top industries in tech, media, healthcare, fashion, and education. You’ll find world-class shopping, Michelin-starred dining, and inspiring natural beauty just minutes away from wherever you stay."
     },
     "San Diego": {
       "city": "San Diego",
       "state": "CA",
-      "image": "sd.jpg",
-      "numProperties": 5,
-      "description": "Known for its laid-back vibe, beautiful beaches, and year-round sunshine, San Diego blends coastal relaxation with urban sophistication. The city is rich in culture, outdoor activities, and culinary experiences, offering something for everyone from surfers to foodies."
+      "image": "/city3.jpg",
+      "numProperties": 4,
+      "description": "San Diego is a coastal gem that perfectly blends work and relaxation, offering a laid-back atmosphere with the amenities of a thriving metropolitan city. Whether you're here for business, an extended stay, or a temporary relocation, San Diego welcomes you with sunny skies, scenic beaches, and a strong sense of community.Known for its biotech and healthcare industries, military presence, and top-tier universities, San Diego is ideal for professionals and families alike. From the shores of La Jolla to the vibrant neighborhoods of Downtown, Little Italy, and Pacific Beach, you’ll find a diverse mix of culture, cuisine, and outdoor adventure. With world-class attractions like the San Diego Zoo, Balboa Park, and waterfront dining—plus year-round perfect weather—this city offers the ideal Southern California lifestyle for work and play."
     },
     "Seattle": {
       "city": "Seattle",
       "state": "WA",
-      "image": "seattle.jpg",
-      "numProperties": 4,
-      "description": "Set against the backdrop of Puget Sound and surrounded by natural beauty, Seattle is a city of innovation, coffee culture, and cutting-edge tech. Its walkable neighborhoods, thriving music scene, and foodie destinations make it a favorite among young professionals and creatives."
+      "image": "/city4.jpg",
+      "numProperties": 2,
+      "description": "As one of the most innovative and naturally beautiful cities in the country, Seattle offers a unique blend of business, technology, culture, and outdoor adventure. Whether you're visiting for work, relocating temporarily, or planning an extended stay, Seattle provides a seamless mix of modern living and Pacific Northwest charm. From thriving corporate hubs to scenic waterfronts and iconic landmarks, this city is built for professionals, creatives, and explorers alike.With distinct neighborhoods like Capitol Hill, South Lake Union, Ballard, and Queen Anne, Seattle is home to industry leaders in tech, biotech, and aerospace, along with top universities and research centers. Enjoy fresh seafood at the famous Pike Place Market, explore endless trails and green spaces, or take in the views from the Space Needle—all within minutes of your stay in this vibrant, forward-thinking city."
     },
     "Denver": {
       "city": "Denver",
@@ -37,9 +37,9 @@
     "Irvine": {
       "city": "Irvine",
       "state": "CA",
-      "image": "irvine.jpg",
-      "numProperties": 5,
-      "description": "A master-planned city in the heart of Orange County, Irvine is known for its safety, top-rated schools, and high quality of life. With parks, shopping centers, and a growing tech scene, it's a clean, family-friendly destination with a modern, upscale feel."
+      "image": "/city1.jpg",
+      "numProperties": 4,
+      "description": "Located in the heart of Orange County, Irvine is a clean, safe, and master-planned city celebrated for its top-rated schools, lush parks, and vibrant, family-friendly neighborhoods. It’s home to the prestigious UC Irvine and offers easy access to world-class destinations like Disneyland, John Wayne Airport, and iconic beaches including Laguna Beach, Newport Beach, and Huntington Beach. Just minutes away, you’ll find premier shopping and entertainment at Irvine Spectrum Center, South Coast Plaza, and Fashion Island. With seamless access to major freeways and a central location, Irvine combines comfort, convenience, and California lifestyle at its finest."
     },
     "Miami": {
       "city": "Miami",

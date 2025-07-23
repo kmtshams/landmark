@@ -1,17 +1,92 @@
 [
     { 
         "id" : 0, 
-        "name" : "Urban Luxe-Stylish Hideout",
-        "beds" : 2, 
-        "baths" : 2, 
-        "sqft" : 1700,
+        "name" : "Rosslyn",
+        "beds" : 1, 
+        "baths" : 1, 
+        "sqft" : 800,
         "location" : {
             "city" : "Irvine",
             "state" : "CA"
         },
         "description": "Live at the center of it all in this contemporary one-bedroom apartment in Irvine, where vibrant city life meets serene comfort. Located just minutes from the Irvine Spectrum Center, this stylish residence offers sleek interiors with hardwood-style flooring, quartz countertops, and in-unit laundry. Enjoy resort-style amenities including a rooftop lounge, fitness center, and sparkling pool, all within a walkable neighborhood filled with dining, shopping, and entertainment options. With easy access to major freeways and top employers, this home combines luxury and convenience in one of Orange County's most dynamic communities.",
-        "guests": 6,
-        "numPics": 18,
+        "guests": 4,
+        "numPics": 13,
+        "Living Room":[
+          "Large Comfortable Sofa",
+          "4K Smart TV",
+          "Comfy Accent Chairs",
+          "Stylish Coffee Tables",
+          "Reading Lamps",
+          "Work desk with chair"
+        ],
+        "Kitchen & Dining": [
+          "Microwave",
+          "Stove",
+          "Toaster",
+          "Blender",
+          "Coffee Maker",
+          "Double Door Refrigerator/Freezer",
+          "Dishwasher",
+          "Sink - Hot & Cold Water",
+          "Plates",
+          "Glasses",
+          "Silverware",
+          "Pots & Pans"
+        ],
+        "Bedroom": [
+          "King-Size Beds with Premium Linens, Sheets, and Pillows",
+          "Walk-In Closet with Hangers and Shelves",
+          "Night Stands with Reading Lamps",
+          "Full Body Mirrors",
+          "Queen size air mattress is available with linens, sheets, and blankets"
+        ],
+        "Bathroom": [
+          "Shower",
+          "Vanity",
+          "Mirror",
+          "Toilet",
+          "Towels",
+          "Hair Dryer"
+        ],
+        "Guest Access":"The apartment is exclusively yours, without interruption during your stay, so relax, unwind, and make yourself at home.",
+        "Amenities": [
+          "High-Speed Wi-Fi",
+          "Self Check-In",
+          "Air Conditioning",
+          "Heating",
+          "Iron/Board/Steamer",
+          "Washer/Dryer",
+          "The home is part of a high-end community with numerous outstanding facilities you are welcome to use during your stay:",
+          "Fitness Center",
+          "Lush Gardens with Cozy Lounge Areas",
+          "Market and Coffee Shop",
+          "EV Charger",
+          "Free Parking"
+        ],
+        "Other things to note": [
+          "PET-FRIENDLY HOME - Bring your furry friends along for an exciting vacation and enjoy the company of your best friends.",
+          "CLEANING & SANITIZATION - We use a thorough cleaning process after each check-out for your health, safety, and well-being.",
+          "NO SMOKING INSIDE - Please refrain from smoking inside. Evidence of smoking will result in an odor removal and cleaning fee.",
+          "NO SHOES INSIDE THE APARTMENT - Please take off your shoes at the entrance to keep the home clean.",
+          "NO PARTIES/EVENTS - To protect our neighbors’ peace, parties are strictly prohibited. A “Minut Smart Home” system monitors noise, and a Ring doorbell verifies occupancy."
+        ],
+        "cover_image":"/properties/irvine/rosslyn/cover-page.jpeg",
+        "images":[
+          "/properties/irvine/rosslyn/rosslyn1.jpeg",
+          "/properties/irvine/rosslyn/rosslyn2.jpeg",
+          "/properties/irvine/rosslyn/rosslyn3.jpeg",
+          "/properties/irvine/rosslyn/rosslyn4.jpeg",
+          "/properties/irvine/rosslyn/rosslyn5.jpeg",
+          "/properties/irvine/rosslyn/rosslyn6.jpeg",
+          "/properties/irvine/rosslyn/rosslyn7.jpeg",
+          "/properties/irvine/rosslyn/rosslyn8.jpeg",
+          "/properties/irvine/rosslyn/rosslyn9.jpeg",
+          "/properties/irvine/rosslyn/rosslyn10.jpeg",
+          "/properties/irvine/rosslyn/rosslyn11.jpeg",
+          "/properties/irvine/rosslyn/rosslyn12.jpeg",
+          "/properties/irvine/rosslyn/rosslyn13.jpeg"
+        ],
         "review": {
             "name" : "John Dilion",
             "date" : "12-12-2024",
@@ -21,27 +96,7 @@
     },
     { 
         "id" : 1, 
-        "name" : "Elegant Tranquil Haven",
-        "beds" : 1, 
-        "baths" : 1, 
-        "sqft" : 1300,
-        "location" : {
-            "city" : "Irvine",
-            "state" : "CA"
-        },
-        "description": "Live at the center of it all in this contemporary one-bedroom apartment in Irvine, where vibrant city life meets serene comfort. Located just minutes from the Irvine Spectrum Center, this stylish residence offers sleek interiors with hardwood-style flooring, quartz countertops, and in-unit laundry. Enjoy resort-style amenities including a rooftop lounge, fitness center, and sparkling pool, all within a walkable neighborhood filled with dining, shopping, and entertainment options. With easy access to major freeways and top employers, this home combines luxury and convenience in one of Orange County's most dynamic communities.",
-        "guests": 4,
-        "numPics": 15,
-        "review": {
-            "name" : "Brian Aldon",
-            "date" : "1-10-2025",
-            "rating" : 5,
-            "description" : "Clean, comfortable, and safe! Spacious place with comfy bed and couch. Pretty quiet overall. Parking garage made it feel very secure. I really enjoyed the surrounding restaurants and shops. Highly recommend!"
-        }
-    },
-    { 
-        "id" : 2, 
-        "name" : "Milan | Peaceful Luxury",
+        "name" : "Milan",
         "beds" : 1, 
         "baths" : 1, 
         "sqft" : 1400,
@@ -50,272 +105,1430 @@
             "state" : "CA"
         },
         "description": "Live at the center of it all in this contemporary one-bedroom apartment in Irvine, where vibrant city life meets serene comfort. Located just minutes from the Irvine Spectrum Center, this stylish residence offers sleek interiors with hardwood-style flooring, quartz countertops, and in-unit laundry. Enjoy resort-style amenities including a rooftop lounge, fitness center, and sparkling pool, all within a walkable neighborhood filled with dining, shopping, and entertainment options. With easy access to major freeways and top employers, this home combines luxury and convenience in one of Orange County's most dynamic communities.",
-        "numPics": 40,
+        "guests": 4,
+        "numPics": 48,
+        "Living Room": [
+          "Large Comfortable Sofa",
+          "4K Smart TV",
+          "Comfy Accent Chairs",
+          "Stylish Coffee Tables",
+          "Reading Lamps",
+          "Work desk w/ chair"
+        ],
+        "Kitchen & Dining": [
+          "Microwave",
+          "Stove",
+          "Toaster",
+          "Blender",
+          "Coffee Maker",
+          "Double Door Refrigerator/Freezer",
+          "Dishwasher",
+          "Sink - Hot/Cold Water",
+          "Plates",
+          "Glasses",
+          "Silverware",
+          "Pots/Pans"
+        ],
+        "Bedroom": [
+          "King-Size Beds with Premium Linens, Sheets and Pillows",
+          "Walk-In Closet with Hangers and Shelves",
+          "Night Stands with Reading Lamps",
+          "Full Body Mirrors",
+          "Queen size air mattress is available with linens, sheets, and blankets"
+        ],
+        "Bathroom": [
+          "Shower",
+          "Vanity",
+          "Mirror",
+          "Toilet",
+          "Towels",
+          "Hair Dryer"
+        ],
+        "Guest Access": [
+          "The apartment is exclusively yours, without interruption during your stay, so relax, unwind, and make yourself at home."
+        ],
+        "Amenities": [
+          "High-Speed Wi-Fi",
+          "Self Check-In",
+          "Air Conditioning",
+          "Heating",
+          "Iron/Board/Steamer",
+          "Washer/Dryer",
+          "The home is part of a high-end community with numerous outstanding facilities you are welcome to use during your stay:",
+          "Fitness Center",
+          "Lush Gardens with Cozy Lounge Areas",
+          "Market and Coffee Shop",
+          "EV Charger",
+          "Free Parking"
+        ],
+        "Other things to note": [
+          "PET-FRIENDLY HOME - Bring your furry friends along for an exciting vacation and enjoy the company of your best friends.",
+          "CLEANING & SANITIZATION - We use a thorough cleaning process after each check-out for your health, safety, and well-being.",
+          "NO SMOKING INSIDE - Please refrain from smoking inside. Evidence of smoking will result in an odor removal and cleaning fee.",
+          "NO SHOES INSIDE THE APARTMENT - Please take off your shoes at the entrance to keep the home clean.",
+          "NO PARTIES/EVENTS - To protect our neighbors’ peace, parties are strictly prohibited. A “Minut Smart Home” system monitors noise, and a Ring doorbell verifies occupancy."
+        ],
+        "cover_image":"/properties/irvine/milan/cover-page.jpeg",
+        "images":[
+          "/properties/irvine/milan/milan1.jpeg",
+          "/properties/irvine/milan/milan2.jpeg",
+          "/properties/irvine/milan/milan3.jpeg",
+          "/properties/irvine/milan/milan4.jpeg",
+          "/properties/irvine/milan/milan5.jpeg",
+          "/properties/irvine/milan/milan6.jpeg",
+          "/properties/irvine/milan/milan7.jpeg",
+          "/properties/irvine/milan/milan8.jpeg",
+          "/properties/irvine/milan/milan9.jpg",
+          "/properties/irvine/milan/milan10.jpg",
+          "/properties/irvine/milan/milan11.jpg",
+          "/properties/irvine/milan/milan12.jpg",
+          "/properties/irvine/milan/milan13.jpg",
+          "/properties/irvine/milan/milan14.jpg",
+          "/properties/irvine/milan/milan15.jpg",
+          "/properties/irvine/milan/milan16.jpg",
+          "/properties/irvine/milan/milan17.jpg",
+          "/properties/irvine/milan/milan18.jpg",
+          "/properties/irvine/milan/milan19.jpg",
+          "/properties/irvine/milan/milan20.jpg",
+          "/properties/irvine/milan/milan21.jpg",
+          "/properties/irvine/milan/milan22.jpg",
+          "/properties/irvine/milan/milan23.jpg",
+          "/properties/irvine/milan/milan24.jpg",
+          "/properties/irvine/milan/milan25.jpg",
+          "/properties/irvine/milan/milan26.jpg",
+          "/properties/irvine/milan/milan27.jpg",
+          "/properties/irvine/milan/milan28.jpg",
+          "/properties/irvine/milan/milan29.jpg",
+          "/properties/irvine/milan/milan30.jpg",
+          "/properties/irvine/milan/milan31.jpg",
+          "/properties/irvine/milan/milan32.jpg",
+          "/properties/irvine/milan/milan33.jpg",
+          "/properties/irvine/milan/milan34.jpg",
+          "/properties/irvine/milan/milan35.jpg",
+          "/properties/irvine/milan/milan36.jpg",
+          "/properties/irvine/milan/milan37.jpg",
+          "/properties/irvine/milan/milan38.jpg",
+          "/properties/irvine/milan/milan39.jpg",
+          "/properties/irvine/milan/milan40.jpg",
+          "/properties/irvine/milan/milan41.jpg",
+          "/properties/irvine/milan/milan42.jpg",
+          "/properties/irvine/milan/milan43.jpg",
+          "/properties/irvine/milan/milan44.jpg",
+          "/properties/irvine/milan/milan45.jpg",
+          "/properties/irvine/milan/milan46.jpg",
+          "/properties/irvine/milan/milan47.jpg",
+          "/properties/irvine/milan/milan48.jpg"
+        ],
         "review": {
-            "name" : "Dylan Smithsen",
-            "date" : "5-1-2023",
+            "name" : "John Dilion",
+            "date" : "12-12-2024",
             "rating" : 5,
-            "description" : "Clean, comfortable, and safe! Spacious place with comfy bed and couch. Pretty quiet overall. Parking garage made it feel very secure. I really enjoyed the surrounding restaurants and shops. Highly recommend!"
+            "description" : "This property is amazing! Great location and amenities"
         }
     },
-    {
-        "id": 3,
-        "name": "Skyline Retreat",
-        "beds": 1,
-        "baths": 1,
-        "sqft": 950,
-        "location": {
-          "city": "Seattle",
-          "state": "WA"
+    { 
+        "id" : 2, 
+        "name" : "Madrina",
+        "beds" : 2, 
+        "baths" : 2, 
+        "sqft" : 1200,
+        "location" : {
+            "city" : "Irvine",
+            "state" : "CA"
         },
-        "description": "Discover urban living at its finest in this contemporary one-bedroom unit in the heart of downtown Seattle. Nestled steps from Pike Place Market, the waterfront, and the city's top restaurants and tech hubs, this sleek apartment offers panoramic views, high-end finishes, and access to premium amenities like a rooftop lounge, fitness center, and co-working space. Enjoy walkable convenience and the vibrant energy of Seattle right at your doorstep.",
-        "guests": 4,
-        "numPics": 15,
-        "review": {
-          "name": "Alexander Chand",
-          "date": "02-28-2025",
-          "rating": 5,
-          "description": "Incredible view and top-notch amenities. Will definitely return!"
-        }
-      },
-      {
-        "id": 4,
-        "name": "Coastal Calm - San Diego Escape",
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1450,
-        "location": {
-          "city": "San Diego",
-          "state": "CA"
-        },
-        "description": "Live in the heart of San Diego in this modern one-bedroom unit, perfectly located just minutes from the Gaslamp Quarter, Petco Park, and the waterfront. Surrounded by top dining, entertainment, and cultural hotspots, this bright and open space offers the best of city living with resort-style amenities like a rooftop deck, fitness center, and secure parking. Whether you're walking to coffee shops or catching a sunset by the bay, everything you need is right outside your door.",
+        "description": "Live at the center of it all in this contemporary one-bedroom apartment in Irvine, where vibrant city life meets serene comfort. Located just minutes from the Irvine Spectrum Center, this stylish residence offers sleek interiors with hardwood-style flooring, quartz countertops, and in-unit laundry. Enjoy resort-style amenities including a rooftop lounge, fitness center, and sparkling pool, all within a walkable neighborhood filled with dining, shopping, and entertainment options. With easy access to major freeways and top employers, this home combines luxury and convenience in one of Orange County's most dynamic communities.",
         "guests": 6,
-        "numPics": 11,
+        "numPics": 18,
+        "Living Room": [
+        "Large Comfortable Sofa",
+        "4K Smart TV",
+        "Comfy Accent Chairs",
+        "Stylish Coffee Tables",
+        "Reading Lamps",
+        "Work desk with chair",
+        "Microwave",
+        "Stove",
+        "Toaster",
+        "Blender",
+        "Coffee Maker",
+        "Double Door Refrigerator/Freezer",
+        "Dishwasher",
+        "Sink - Hot & Cold Water",
+        "Plates",
+        "Glasses",
+        "Silverware",
+        "Pots & Pans"
+      ],
+      "Bedroom": [
+        "King-Size Beds with Premium Linens, Sheets, and Pillows",
+        "Walk-In Closet with Hangers and Shelves",
+        "Night Stands with Reading Lamps",
+        "Full Body Mirrors",
+        "Queen size air mattress is available with linens, sheets, and blankets"
+      ],
+      "Bathroom": [
+        "Walk-In Shower/tub",
+        "Mirror",
+        "Toilet",
+        "Towels",
+        "Hair Dryer"
+      ],
+      "Guest Access": [
+        "The apartment is exclusively yours, without interruption during your stay, so relax, unwind, and make yourself at home."
+      ],
+      "Amenities": [
+        "High-Speed Wi-Fi",
+        "Self Check-In",
+        "Air Conditioning",
+        "Heating",
+        "Iron/Board/Steamer",
+        "Washer/Dryer",
+        "The home is part of a high-end community with numerous outstanding facilities you are welcome to use during your stay:",
+        "Fitness Center",
+        "Lush Gardens with Cozy Lounge Areas",
+        "Market and Coffee Shop",
+        "EV Charger",
+        "Free Parking"
+      ],
+      "Other things to note": [
+        "PET-FRIENDLY HOME - Bring your furry friends along for an exciting vacation and enjoy the company of your best friends.",
+        "CLEANING & SANITIZATION - We use a thorough cleaning process after each check-out for your health, safety, and well-being.",
+        "NO SMOKING INSIDE - Please refrain from smoking inside. Evidence of smoking will result in an odor removal and cleaning fee.",
+        "NO SHOES INSIDE THE APARTMENT - Please take off your shoes at the entrance to keep the home clean.",
+        "NO PARTIES/EVENTS - To protect our neighbors’ peace, parties are strictly prohibited. A “Minut Smart Home” system monitors noise, and a Ring doorbell verifies occupancy."
+      ],
+        "cover_image":"/properties/irvine/madrina/cover-page.jpeg",
+        "images":[
+          "/properties/irvine/madrina/madrina1.jpg",
+          "/properties/irvine/madrina/madrina2.jpeg",
+          "/properties/irvine/madrina/madrina3.jpeg",
+          "/properties/irvine/madrina/madrina4.jpeg",
+          "/properties/irvine/madrina/madrina5.jpeg",
+          "/properties/irvine/madrina/madrina6.jpeg",
+          "/properties/irvine/madrina/madrina7.jpeg",
+          "/properties/irvine/madrina/madrina8.jpeg",
+          "/properties/irvine/madrina/madrina9.jpeg",
+          "/properties/irvine/madrina/madrina10.jpeg",
+          "/properties/irvine/madrina/madrina11.jpeg",
+          "/properties/irvine/madrina/madrina12.jpeg",
+          "/properties/irvine/madrina/madrina13.jpeg",
+          "/properties/irvine/madrina/madrina14.jpeg",
+          "/properties/irvine/madrina/madrina15.jpeg",
+          "/properties/irvine/madrina/madrina16.jpeg",
+          "/properties/irvine/madrina/madrina17.jpeg",
+          "/properties/irvine/madrina/madrina18.jpeg",
+          "/properties/irvine/madrina/madrina19.heic"
+        ],
         "review": {
-          "name": "Marie Taylor",
-          "date": "01-14-2025",
-          "rating": 4,
-          "description": "Very cozy and peaceful. A great spot near the ocean!"
+            "name" : "John Dilion",
+            "date" : "12-12-2024",
+            "rating" : 5,
+            "description" : "This property is amazing! Great location and amenities"
         }
-      },
-      {
-        "id": 5,
-        "name": "Modern Nest",
-        "beds": 2,
-        "baths": 1,
-        "sqft": 1100,
-        "location": {
-          "city": "Jersey City",
-          "state": "NJ"
+    },
+    { 
+        "id" : 3, 
+        "name" : "Lori",
+        "beds" : 1, 
+        "baths" : 1, 
+        "sqft" : 850,
+        "location" : {
+            "city" : "Irvine",
+            "state" : "CA"
         },
-        "description": "Experience modern urban living in this stylish one-bedroom apartment located in the heart of Downtown Jersey City. Just steps from the Grove Street PATH station, this residence offers seamless access to Manhattan, while being surrounded by vibrant dining, shopping, and cultural attractions. The apartment features sleek finishes, large windows that flood the space with natural light, and access to amenities such as a fitness center and rooftop lounge. With the waterfront, parks, and entertainment venues nearby, this home provides the perfect blend of convenience and contemporary comfort.",
-        "guests": 5,
-        "numPics": 13,
-        "review": {
-          "name": "Priya N.",
-          "date": "03-05-2025",
-          "rating": 5,
-          "description": "Perfect for remote work and super clean. Loved the location!"
-        }
-      },
-      {
-        "id": 6,
-        "name": "Canyon Hideaway",
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2200,
-        "location": {
-          "city": "New York City",
-          "state": "NY"
-        },
-        "description": "Live at the center of it all in this sleek one-bedroom apartment in Downtown Manhattan, steps from Tribeca, SoHo, and the West Village. Enjoy floor-to-ceiling windows with skyline views, premium finishes, and access to top-tier amenities like a rooftop lounge, fitness center, and 24-hour concierge. With world-class dining, shopping, and transit just outside your door, this is quintessential NYC living.",
-        "guests": 8,
-        "numPics": 9,
-        "review": {
-          "name": "Samantha Lee",
-          "date": "11-22-2024",
-          "rating": 5,
-          "description": "The photos don’t do it justice—absolutely stunning!"
-        }
-      },
-      {
-        "id": 7,
-        "name": "Sunset Loft - Beach View",
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1200,
-        "location": {
-          "city": "Miami",
-          "state": "FL"
-        },
-        "description": "Live in the vibrant core of Downtown Miami with this sleek one-bedroom apartment offering panoramic views and resort-style amenities. Situated steps from Bayfront Park, the Metromover, and the lively Brickell and Wynwood districts, this modern residence features floor-to-ceiling windows, high ceilings, and designer finishes. Residents enjoy access to a rooftop pool, fitness center, co-working spaces, and concierge services, all within a pet-friendly community. With the beach, arts venues, and top dining just minutes away, this apartment delivers the ultimate Miami lifestyle.",
+        "description": "Live at the center of it all in this contemporary one-bedroom apartment in Irvine, where vibrant city life meets serene comfort. Located just minutes from the Irvine Spectrum Center, this stylish residence offers sleek interiors with hardwood-style flooring, quartz countertops, and in-unit laundry. Enjoy resort-style amenities including a rooftop lounge, fitness center, and sparkling pool, all within a walkable neighborhood filled with dining, shopping, and entertainment options. With easy access to major freeways and top employers, this home combines luxury and convenience in one of Orange County's most dynamic communities.",
         "guests": 4,
-        "numPics": 15,
+        "numPics": 43,
+        "Living Room": [
+        "Large Comfortable Sofa",
+        "4K Smart TV",
+        "Comfy Accent Chairs",
+        "Stylish Coffee Tables",
+        "Reading Lamps",
+        "Work desk with chair"
+      ],
+      "Kitchen & Dining": [
+        "Microwave",
+        "Stove",
+        "Toaster",
+        "Blender",
+        "Coffee Maker",
+        "Double Door Refrigerator/Freezer",
+        "Dishwasher",
+        "Sink - Hot & Cold Water",
+        "Plates",
+        "Glasses",
+        "Silverware",
+        "Pots & Pans"
+      ],
+      "Bedroom": [
+        "King-Size Beds with Premium Linens, Sheets, and Pillows",
+        "Walk-In Closet with Hangers and Shelves",
+        "Night Stands with Reading Lamps",
+        "Full Body Mirrors",
+        "Queen size air mattress is available with linens, sheets, and blankets"
+      ],
+      "Bathroom": [
+        "Shower",
+        "Vanity",
+        "Mirror",
+        "Toilet",
+        "Towels",
+        "Hair Dryer"
+      ],
+      "Guest Access": [
+        "The apartment is exclusively yours, without interruption during your stay, so relax, unwind, and make yourself at home."
+      ],
+      "Amenities": [
+        "High-Speed Wi-Fi",
+        "Self Check-In",
+        "Air Conditioning",
+        "Heating",
+        "Iron/Board/Steamer",
+        "Washer/Dryer",
+        "The home is part of a high-end community with numerous outstanding facilities you are welcome to use during your stay:",
+        "Fitness Center",
+        "Lush Gardens with Cozy Lounge Areas",
+        "Market and Coffee Shop",
+        "EV Charger",
+        "Free Parking"
+      ],
+      "Other things to note": [
+        "PET-FRIENDLY HOME - Bring your furry friends along for an exciting vacation and enjoy the company of your best friends.",
+        "CLEANING & SANITIZATION - We use a thorough cleaning process after each check-out for your health, safety, and well-being.",
+        "NO SMOKING INSIDE - Please refrain from smoking inside. Evidence of smoking will result in an odor removal and cleaning fee.",
+        "NO SHOES INSIDE THE APARTMENT - Please take off your shoes at the entrance to keep the home clean.",
+        "NO PARTIES/EVENTS - To protect our neighbors’ peace, parties are strictly prohibited. A “Minut Smart Home” system monitors noise, and a Ring doorbell verifies occupancy."
+      ],
+        "cover_image":"/properties/irvine/lori/cover-page.jpeg",
+        "images":[
+          "/properties/irvine/lori/lori1.jpeg",
+          "/properties/irvine/lori/lori2.jpeg",
+          "/properties/irvine/lori/lori3.jpeg",
+          "/properties/irvine/lori/lori4.jpeg",
+          "/properties/irvine/lori/lori5.jpeg",
+          "/properties/irvine/lori/lori6.jpeg",
+          "/properties/irvine/lori/lori7.jpeg",
+          "/properties/irvine/lori/lori8.jpeg",
+          "/properties/irvine/lori/lori9.jpeg",
+          "/properties/irvine/lori/lori10.jpeg",
+          "/properties/irvine/lori/lori11.jpeg",
+          "/properties/irvine/lori/lori12.jpeg",
+          "/properties/irvine/lori/lori13.jpeg",
+          "/properties/irvine/lori/lori14.jpeg",
+          "/properties/irvine/lori/lori15.jpeg",
+          "/properties/irvine/lori/lori16.jpeg",
+          "/properties/irvine/lori/lori17.jpeg",
+          "/properties/irvine/lori/lori18.jpeg",
+          "/properties/irvine/lori/lori19.jpeg",
+          "/properties/irvine/lori/lori20.jpeg",
+          "/properties/irvine/lori/lori21.jpeg",
+          "/properties/irvine/lori/lori22.jpeg",
+          "/properties/irvine/lori/lori23.jpeg",
+          "/properties/irvine/lori/lori24.jpeg",
+          "/properties/irvine/lori/lori25.jpeg",
+          "/properties/irvine/lori/lori26.jpeg",
+          "/properties/irvine/lori/lori27.jpeg",
+          "/properties/irvine/lori/lori28.jpeg",
+          "/properties/irvine/lori/lori29.jpeg",
+          "/properties/irvine/lori/lori30.jpeg",
+          "/properties/irvine/lori/lori31.jpeg",
+          "/properties/irvine/lori/lori32.jpeg",
+          "/properties/irvine/lori/lori33.jpeg",
+          "/properties/irvine/lori/lori34.jpeg",
+          "/properties/irvine/lori/lori35.jpeg",
+          "/properties/irvine/lori/lori36.jpeg",
+          "/properties/irvine/lori/lori37.jpeg",
+          "/properties/irvine/lori/lori38.jpeg"
+        ],
         "review": {
-          "name": "Daniela Martinez",
-          "date": "04-10-2025",
-          "rating": 5,
-          "description": "Perfect beach getaway. Super clean and walkable to everything."
-          }
-        },
-        {
-          "id": 8,
-          "name": "Mountain View Modern - Denver Heights",
-          "beds": 3,
-          "baths": 2,
-          "sqft": 1800,
-          "location": {
-            "city": "Denver",
-            "state": "CO"
-          },
-          "description": "Enjoy modern city living in this stylish one-bedroom unit located in the heart of downtown Denver. Just a short walk from Union Station, Larimer Square, and Coors Field, this vibrant home places you at the center of the city’s best dining, nightlife, and cultural attractions. With spacious interiors, upscale finishes, and amenities like a fitness center and rooftop terrace, this unit offers both comfort and connection in one of Denver’s most sought-after neighborhoods.",
-          "guests": 7,
-          "numPics": 6,
-          "review": {
-            "name": "Richard Kim",
-            "date": "03-03-2025",
-            "rating": 5,
-            "description": "Beautiful views and cozy interior. Highly recommend for families!"
-          }
-        },
-        {
-          "id": 9,
-          "name": "Harborview Haven",
-          "beds": 1,
-          "baths": 1,
-          "sqft": 980,
-          "location": {
-            "city": "Boston",
-            "state": "MA"
-          },
-          "description": "Step into classic charm and contemporary comfort in this elegant one-bedroom unit in the heart of downtown Boston. Surrounded by historic landmarks, premier universities, and vibrant neighborhoods like Back Bay and Beacon Hill, this residence offers unmatched access to the city's rich culture and modern conveniences. Featuring refined finishes, natural light, and amenities like a resident lounge and rooftop views, this home is the perfect blend of heritage and high-end urban living.",
-          "guests": 2,
-          "numPics": 10,
-          "review": {
-            "name": "George T.",
-            "date": "02-19-2025",
-            "rating": 4,
-            "description": "Loved the location. Great for a weekend escape."
-          }
-        },
-        {
-          "id": 10,
-          "name": "Desert Mirage",
-          "beds": 3,
-          "baths": 2,
-          "sqft": 1600,
-          "location": {
-            "city": "San Diego",
-            "state": "CA"
-          },
-          "description": "Live in the heart of San Diego in this modern one-bedroom unit, perfectly located just minutes from the Gaslamp Quarter, Petco Park, and the waterfront. Surrounded by top dining, entertainment, and cultural hotspots, this bright and open space offers the best of city living with resort-style amenities like a rooftop deck, fitness center, and secure parking. Whether you're walking to coffee shops or catching a sunset by the bay, everything you need is right outside your door.",
-          "guests": 6,
-          "numPics": 10,
-          "review": {
-            "name": "Tina Alvarez",
-            "date": "01-25-2025",
-            "rating": 5,
-            "description": "Funky, fun, and full of charm. We didn’t want to leave!"
-          }
-        },
-        {
-          "id": 11,
-          "name": "City Light Escape",
-          "beds": 2,
-          "baths": 2,
-          "sqft": 1400,
-          "location": {
-            "city": "Seattle",
-            "state": "WA"
-          },
-          "description": "Discover urban living at its finest in this contemporary one-bedroom unit in the heart of downtown Seattle. Nestled steps from Pike Place Market, the waterfront, and the city's top restaurants and tech hubs, this sleek apartment offers panoramic views, high-end finishes, and access to premium amenities like a rooftop lounge, fitness center, and co-working space. Enjoy walkable convenience and the vibrant energy of Seattle right at your doorstep.",
-          "guests": 4,
-          "numPics": 7,
-          "review": {
-            "name": "Nina Zhao",
-            "date": "12-08-2024",
-            "rating": 4,
-            "description": "Gorgeous views and amazing location for exploring Seattle!"
-          }
-        },
-        {
-          "id": 12,
-          "name": "Uptown Vibe",
-          "beds": 1,
-          "baths": 1,
-          "sqft": 950,
-          "location": {
-            "city": "Los Angeles",
-            "state": "CA"
-          },
-          "description": "Experience the vibrant heart of Downtown Los Angeles in this stylish one-bedroom unit, perfectly situated in the center of it all. Just steps away from iconic attractions like LA Live, the Crypto.com Arena, and the bustling restaurants of South Park, this modern space offers the ultimate urban lifestyle. With sleek finishes, and amenities like a fitness center and rooftop lounge, you’ll enjoy comfort and convenience in one of LA’s most dynamic neighborhoods.",
-          "guests": 2,
-          "numPics": 3,
-          "review": {
-            "name": "Lanie Jenkins",
-            "date": "04-01-2025",
-            "rating": 5,
-            "description": "Very clean and comfortable. The location was unbeatable."
-          }
-        },
-        {
-          "id": 13,
-          "name": "L.A. Charm",
-          "beds": 2,
-          "baths": 2,
-          "sqft": 1300,
-          "location": {
-            "city": "Los Angeles",
-            "state": "CA"
-          },
-          "description": "Experience the vibrant heart of Downtown Los Angeles in this stylish one-bedroom unit, perfectly situated in the center of it all. Just steps away from iconic attractions like LA Live, the Crypto.com Arena, and the bustling restaurants of South Park, this modern space offers the ultimate urban lifestyle. With sleek finishes, and amenities like a fitness center and rooftop lounge, you’ll enjoy comfort and convenience in one of LA’s most dynamic neighborhoods.",
-          "guests": 4,
-          "numPics": 3,
-          "review": {
-            "name": "Yara Mohammed",
-            "date": "01-02-2025",
-            "rating": 4,
-            "description": "Comfortable, stylish, and super central!"
-          }
-        },
-        {
-          "id": 14,
-          "name": "Bay Breeze Flat",
-          "beds": 1,
-          "baths": 1,
-          "sqft": 900,
-          "location": {
-            "city": "Los Angeles",
-            "state": "CA"
-          },
-          "description": "Experience the vibrant heart of Downtown Los Angeles in this stylish one-bedroom unit, perfectly situated in the center of it all. Just steps away from iconic attractions like LA Live, the Crypto.com Arena, and the bustling restaurants of South Park, this modern space offers the ultimate urban lifestyle. With sleek finishes, and amenities like a fitness center and rooftop lounge, you’ll enjoy comfort and convenience in one of LA’s most dynamic neighborhoods.",
-          "guests": 2,
-          "numPics": 3,
-          "review": {
-            "name": "Sophie Lang",
-            "date": "02-11-2025",
-            "rating": 5,
-            "description": "Quiet, bright, and had everything we needed. Great host too!"
-          }
-        },
-        {
-          "id": 15,
-          "name": "Lakeside Retreat",
-          "beds": 3,
-          "baths": 2,
-          "sqft": 1750,
-          "location": {
-            "city": "Denver",
-            "state": "CO"
-          },
-          "description": "Enjoy modern city living in this stylish one-bedroom unit located in the heart of downtown Denver. Just a short walk from Union Station, Larimer Square, and Coors Field, this vibrant home places you at the center of the city’s best dining, nightlife, and cultural attractions. With spacious interiors, upscale finishes, and amenities like a fitness center and rooftop terrace, this unit offers both comfort and connection in one of Denver’s most sought-after neighborhoods.",
-          "guests": 6,
-          "numPics": 12,
-          "review": {
-            "name": "Tom Reilly",
-            "date": "03-18-2025",
-            "rating": 5,
-            "description": "We had such a peaceful time. Loved the indoor-outdoor vibe!"
-          }
+            "name" : "John Dilion",
+            "date" : "12-12-2024",
+            "rating" : 5,
+            "description" : "This property is amazing! Great location and amenities"
         }
+    },
+    { 
+        "id" : 4, 
+        "name" : "Sonora",
+        "beds" : 1, 
+        "baths" : 1, 
+        "sqft" : 760,
+        "location" : {
+            "city" : "Los Angeles",
+            "state" : "CA"
+        },
+        "description": "Live in the heart of Los Angeles in this elegant one-bedroom apartment, where modern design meets the energy of the city. Located just minutes from Beverly Hills, The Grove, and West Hollywood, this stylish home features sleek interiors with hardwood-style flooring, quartz countertops, and convenient in-unit laundry. Enjoy access to resort-style amenities including a rooftop lounge, fitness center, and pool, all within a vibrant neighborhood filled with upscale shopping, award-winning dining, and cultural attractions. With proximity to UCLA, Cedar-Sinai, major studios, and freeways, this home offers both comfort and connectivity in one of LA’s most desirable areas.",
+        "guests": 4,
+        "numPics": 13,
+        "Living Room": [
+          "Large Comfortable Sofa",
+          "4K Smart TV",
+          "Comfy Accent Chairs",
+          "Stylish Coffee Tables",
+          "Reading Lamps",
+          "Work desk with chair"
+        ],
+        "Kitchen & Dining": [
+          "Microwave",
+          "Stove",
+          "Toaster",
+          "Blender",
+          "Coffee Maker",
+          "Double Door Refrigerator/Freezer",
+          "Dishwasher",
+          "Sink – Hot & Cold Water",
+          "Plates",
+          "Glasses",
+          "Silverware",
+          "Pots & Pans"
+        ],
+        "Bedroom": [
+          "King-Size Bed with Premium Linens, Sheets, and Pillows",
+          "Walk-In Closet with Hangers and Shelves",
+          "Night Stands with Reading Lamps",
+          "Full Body Mirrors",
+          "Queen-size air mattress is available with linens, sheets, and blankets"
+        ],
+        "Bathroom": [
+          "Shower",
+          "Vanity",
+          "Mirror",
+          "Toilet",
+          "Towels",
+          "Hair Dryer"
+        ],
+        "Guest Access": [
+          "The apartment is exclusively yours, with full privacy throughout your stay—relax, recharge, and enjoy your home away from home."
+        ],
+        "Amenities": [
+          "High-Speed Wi-Fi",
+          "Self Check-In",
+          "Air Conditioning",
+          "Heating",
+          "Iron/Board/Steamer",
+          "Washer/Dryer",
+          "The home is part of a luxury residential community that provides access to:",
+          "Fitness Center",
+          "Lush Gardens with Cozy Lounge Areas",
+          "Market and Coffee Shop",
+          "EV Charger",
+          "Free Parking"
+        ],
+        "Other Things to Note": [
+          "PET-FRIENDLY HOME - Bring your furry companions along to enjoy the city with you—LA is full of dog parks, trails, and pet-friendly cafes.",
+          "CLEANING & SANITIZATION - We thoroughly clean and sanitize the space after each stay to ensure your health, comfort, and safety.",
+          "NO SMOKING INSIDE - Smoking indoors is strictly prohibited. A professional cleaning fee will apply if any evidence of smoking is found.",
+          "NO SHOES INSIDE THE APARTMENT - Help keep the space clean and welcoming by removing your shoes at the door.",
+          "NO PARTIES/EVENTS - Out of respect for neighbors and community rules, parties and events are not allowed. The unit is equipped with a Minut Smart Home system for noise monitoring and a Ring doorbell for occupancy verification."
+        ],
+        "cover_image":"/properties/los_angeles/sonora/cover-page.jpg",
+        "images":[
+          "/properties/los_angeles/sonora/sonora1.jpg",
+          "/properties/los_angeles/sonora/sonora2.jpg",
+          "/properties/los_angeles/sonora/sonora3.jpg",
+          "/properties/los_angeles/sonora/sonora4.jpg",
+          "/properties/los_angeles/sonora/sonora5.jpg",
+          "/properties/los_angeles/sonora/sonora6.jpg",
+          "/properties/los_angeles/sonora/sonora7.jpg",
+          "/properties/los_angeles/sonora/sonora8.jpg",
+          "/properties/los_angeles/sonora/sonora9.jpg",
+          "/properties/los_angeles/sonora/sonora10.jpg",
+          "/properties/los_angeles/sonora/sonora11.jpg",
+          "/properties/los_angeles/sonora/sonora12.jpg"
+        ],
+        "review": {
+            "name" : "John Dilion",
+            "date" : "12-12-2024",
+            "rating" : 5,
+            "description" : "This property is amazing! Great location and amenities"
+        }
+    },
+    { 
+        "id" : 5, 
+        "name" : "Lilac",
+        "beds" : 1, 
+        "baths" : 1, 
+        "sqft" : 800,
+        "location" : {
+            "city" : "Los Angeles",
+            "state" : "CA"
+        },
+        "description": " Live in the heart of Los Angeles in this elegant one-bedroom apartment, where modern design meets the energy of the city. Located just minutes from Beverly Hills, The Grove, and West Hollywood, this stylish home features sleek interiors with hardwood-style flooring, quartz countertops, and convenient in-unit laundry. Enjoy access to resort-style amenities including a rooftop lounge, fitness center, and pool, all within a vibrant neighborhood filled with upscale shopping, award-winning dining, and cultural attractions. With proximity to UCLA, Cedar-Sinai, major studios, and freeways, this home offers both comfort and connectivity in one of LA’s most desirable areas.",
+        "guests": 4,
+        "numPics": 13,
+        "Living Room": [
+    "Large Comfortable Sofa",
+    "4K Smart TV",
+    "Comfy Accent Chairs",
+    "Stylish Coffee Tables",
+    "Reading Lamps",
+    "Work desk with chair"
+  ],
+  "Kitchen & Dining": [
+    "Microwave",
+    "Stove",
+    "Toaster",
+    "Blender",
+    "Coffee Maker",
+    "Double Door Refrigerator/Freezer",
+    "Dishwasher",
+    "Sink – Hot & Cold Water",
+    "Plates",
+    "Glasses",
+    "Silverware",
+    "Pots & Pans"
+  ],
+  "Bedroom": [
+    "King-Size Bed with Premium Linens, Sheets, and Pillows",
+    "Walk-In Closet with Hangers and Shelves",
+    "Night Stands with Reading Lamps",
+    "Full Body Mirrors",
+    "Queen-size air mattress is available with linens, sheets, and blankets"
+  ],
+  "Bathroom": [
+    "Shower",
+    "Vanity",
+    "Mirror",
+    "Toilet",
+    "Towels",
+    "Hair Dryer"
+  ],
+  "Guest Access": [
+    "The apartment is exclusively yours, with full privacy throughout your stay—relax, recharge, and enjoy your home away from home."
+  ],
+  "Amenities": [
+    "High-Speed Wi-Fi",
+    "Self Check-In",
+    "Air Conditioning",
+    "Heating",
+    "Iron/Board/Steamer",
+    "Washer/Dryer",
+    "The home is part of a luxury residential community that provides access to:",
+    "Fitness Center",
+    "Lush Gardens with Cozy Lounge Areas",
+    "Market and Coffee Shop",
+    "EV Charger",
+    "Free Parking"
+  ],
+  "Other Things to Note": [
+    "PET-FRIENDLY HOME - Bring your furry companions along to enjoy the city with you—LA is full of dog parks, trails, and pet-friendly cafes.",
+    "CLEANING & SANITIZATION - We thoroughly clean and sanitize the space after each stay to ensure your health, comfort, and safety.",
+    "NO SMOKING INSIDE - Smoking indoors is strictly prohibited. A professional cleaning fee will apply if any evidence of smoking is found.",
+    "NO SHOES INSIDE THE APARTMENT - Help keep the space clean and welcoming by removing your shoes at the door.",
+    "NO PARTIES/EVENTS - Out of respect for neighbors and community rules, parties and events are not allowed. The unit is equipped with a Minut Smart Home system for noise monitoring and a Ring doorbell for occupancy verification."
+  ],
+        "cover_image":"/properties/los_angeles/lilac/cover-page.jpg",
+        "images":[
+          "/properties/los_angeles/lilac/lilac1.jpg",
+          "/properties/los_angeles/lilac/lilac2.jpg",
+          "/properties/los_angeles/lilac/lilac3.jpg",
+          "/properties/los_angeles/lilac/lilac4.jpg",
+          "/properties/los_angeles/lilac/lilac5.jpg",
+          "/properties/los_angeles/lilac/lilac6.jpg",
+          "/properties/los_angeles/lilac/lilac7.jpg",
+          "/properties/los_angeles/lilac/lilac8.jpg",
+          "/properties/los_angeles/lilac/lilac9.jpg",
+          "/properties/los_angeles/lilac/lilac10.jpg",
+          "/properties/los_angeles/lilac/lilac11.jpg",
+          "/properties/los_angeles/lilac/lilac12.jpg",
+          "/properties/los_angeles/lilac/lilac13.jpg"
+        ],
+        "review": {
+            "name" : "John Dilion",
+            "date" : "12-12-2024",
+            "rating" : 5,
+            "description" : "This property is amazing! Great location and amenities"
+        }
+    },
+    { 
+        "id" : 6, 
+        "name" : "Dover",
+        "beds" : 1, 
+        "baths" : 1, 
+        "sqft" : 800,
+        "location" : {
+            "city" : "Los Angeles",
+            "state" : "CA"
+        },
+        "description": "Live in the heart of Los Angeles in this elegant one-bedroom apartment, where modern design meets the energy of the city. Located just minutes from Beverly Hills, The Grove, and West Hollywood, this stylish home features sleek interiors with hardwood-style flooring, quartz countertops, and convenient in-unit laundry. Enjoy access to resort-style amenities including a rooftop lounge, fitness center, and pool, all within a vibrant neighborhood filled with upscale shopping, award-winning dining, and cultural attractions. With proximity to UCLA, Cedar-Sinai, major studios, and freeways, this home offers both comfort and connectivity in one of LA’s most desirable areas.",
+        "guests": 4,
+        "numPics": 23,
+        "Living Room": [
+    "Large Comfortable Sofa",
+    "4K Smart TV",
+    "Comfy Accent Chairs",
+    "Stylish Coffee Tables",
+    "Reading Lamps",
+    "Work desk with chair"
+  ],
+  "Kitchen & Dining": [
+    "Microwave",
+    "Stove",
+    "Toaster",
+    "Blender",
+    "Coffee Maker",
+    "Double Door Refrigerator/Freezer",
+    "Dishwasher",
+    "Sink – Hot & Cold Water",
+    "Plates",
+    "Glasses",
+    "Silverware",
+    "Pots & Pans"
+  ],
+  "Bedroom": [
+    "King-Size Bed with Premium Linens, Sheets, and Pillows",
+    "Walk-In Closet with Hangers and Shelves",
+    "Night Stands with Reading Lamps",
+    "Full Body Mirrors",
+    "Queen-size air mattress is available with linens, sheets, and blankets"
+  ],
+  "Bathroom": [
+    "Shower",
+    "Vanity",
+    "Mirror",
+    "Toilet",
+    "Towels",
+    "Hair Dryer"
+  ],
+  "Guest Access": [
+    "The apartment is exclusively yours, with full privacy throughout your stay—relax, recharge, and enjoy your home away from home."
+  ],
+  "Amenities": [
+    "High-Speed Wi-Fi",
+    "Self Check-In",
+    "Air Conditioning",
+    "Heating",
+    "Iron/Board/Steamer",
+    "Washer/Dryer",
+    "The home is part of a luxury residential community that provides access to:",
+    "Fitness Center",
+    "Lush Gardens with Cozy Lounge Areas",
+    "Market and Coffee Shop",
+    "EV Charger",
+    "Free Parking"
+  ],
+  "Other Things to Note": [
+    "PET-FRIENDLY HOME - Bring your furry companions along to enjoy the city with you—LA is full of dog parks, trails, and pet-friendly cafes.",
+    "CLEANING & SANITIZATION - We thoroughly clean and sanitize the space after each stay to ensure your health, comfort, and safety.",
+    "NO SMOKING INSIDE - Smoking indoors is strictly prohibited. A professional cleaning fee will apply if any evidence of smoking is found.",
+    "NO SHOES INSIDE THE APARTMENT - Help keep the space clean and welcoming by removing your shoes at the door.",
+    "NO PARTIES/EVENTS - Out of respect for neighbors and community rules, parties and events are not allowed. The unit is equipped with a Minut Smart Home system for noise monitoring and a Ring doorbell for occupancy verification."
+  ],
+        "cover_image":"/properties/los_angeles/dover/cover-page.jpg",
+        "images":[
+          "/properties/los_angeles/dover/dover1.jpg",
+          "/properties/los_angeles/dover/dover2.jpg",
+          "/properties/los_angeles/dover/dover3.jpg",
+          "/properties/los_angeles/dover/dover4.jpg",
+          "/properties/los_angeles/dover/dover5.jpg",
+          "/properties/los_angeles/dover/dover6.jpg",
+          "/properties/los_angeles/dover/dover7.jpg",
+          "/properties/los_angeles/dover/dover8.jpg",
+          "/properties/los_angeles/dover/dover9.jpg",
+          "/properties/los_angeles/dover/dover10.jpg",
+          "/properties/los_angeles/dover/dover11.jpg",
+          "/properties/los_angeles/dover/dover12.jpg",
+          "/properties/los_angeles/dover/dover13.jpg",
+          "/properties/los_angeles/dover/dover14.jpg",
+          "/properties/los_angeles/dover/dover15.jpg",
+          "/properties/los_angeles/dover/dover16.jpg",
+          "/properties/los_angeles/dover/dover17.jpg",
+          "/properties/los_angeles/dover/dover18.jpg",
+          "/properties/los_angeles/dover/dover19.jpg",
+          "/properties/los_angeles/dover/dover20.jpg",
+          "/properties/los_angeles/dover/dover21.jpg",
+          "/properties/los_angeles/dover/dover22.jpg",
+          "/properties/los_angeles/dover/dover23.jpg"
+        ],
+        "review": {
+            "name" : "John Dilion",
+            "date" : "12-12-2024",
+            "rating" : 5,
+            "description" : "This property is amazing! Great location and amenities"
+        }
+    },
+    { 
+        "id" : 7, 
+        "name" : "Calypso",
+        "beds" : 1, 
+        "baths" : 1, 
+        "sqft" : 938,
+        "location" : {
+            "city" : "Los Angeles",
+            "state" : "CA"
+        },
+        "description": " Live in the heart of Los Angeles in this elegant one-bedroom apartment, where modern design meets the energy of the city. Located just minutes from Beverly Hills, The Grove, and West Hollywood, this stylish home features sleek interiors with hardwood-style flooring, quartz countertops, and convenient in-unit laundry. Enjoy access to resort-style amenities including a rooftop lounge, fitness center, and pool, all within a vibrant neighborhood filled with upscale shopping, award-winning dining, and cultural attractions. With proximity to UCLA, Cedar-Sinai, major studios, and freeways, this home offers both comfort and connectivity in one of LA’s most desirable areas.",
+        "guests": 4,
+        "numPics": 23,
+        "Living Room": [
+          "Large Comfortable Sofa",
+          "4K Smart TV",
+          "Comfy Accent Chairs",
+          "Stylish Coffee Tables",
+          "Reading Lamps",
+          "Work desk with chair"
+        ],
+        "Kitchen & Dining": [
+          "Microwave",
+          "Stove",
+          "Toaster",
+          "Blender",
+          "Coffee Maker",
+          "Double Door Refrigerator/Freezer",
+          "Dishwasher",
+          "Sink – Hot & Cold Water",
+          "Plates",
+          "Glasses",
+          "Silverware",
+          "Pots & Pans"
+        ],
+        "Bedroom": [
+          "King-Size Bed with Premium Linens, Sheets, and Pillows",
+          "Walk-In Closet with Hangers and Shelves",
+          "Night Stands with Reading Lamps",
+          "Full Body Mirrors",
+          "Queen-size air mattress is available with linens, sheets, and blankets"
+        ],
+        "Bathroom": [
+          "Shower",
+          "Vanity",
+          "Mirror",
+          "Toilet",
+          "Towels",
+          "Hair Dryer"
+        ],
+        "Guest Access": [
+          "The apartment is exclusively yours, with full privacy throughout your stay—relax, recharge, and enjoy your home away from home."
+        ],
+        "Amenities": [
+          "High-Speed Wi-Fi",
+          "Self Check-In",
+          "Air Conditioning",
+          "Heating",
+          "Iron/Board/Steamer",
+          "Washer/Dryer",
+          "The home is part of a luxury residential community that provides access to:",
+          "Fitness Center",
+          "Lush Gardens with Cozy Lounge Areas",
+          "Market and Coffee Shop",
+          "EV Charger",
+          "Free Parking"
+        ],
+        "Other Things to Note": [
+          "PET-FRIENDLY HOME - Bring your furry companions along to enjoy the city with you—LA is full of dog parks, trails, and pet-friendly cafes.",
+          "CLEANING & SANITIZATION - We thoroughly clean and sanitize the space after each stay to ensure your health, comfort, and safety.",
+          "NO SMOKING INSIDE - Smoking indoors is strictly prohibited. A professional cleaning fee will apply if any evidence of smoking is found.",
+          "NO SHOES INSIDE THE APARTMENT - Help keep the space clean and welcoming by removing your shoes at the door.",
+          "NO PARTIES/EVENTS - Out of respect for neighbors and community rules, parties and events are not allowed. The unit is equipped with a Minut Smart Home system for noise monitoring and a Ring doorbell for occupancy verification."
+        ],
+        "cover_image":"/properties/los_angeles/calypso/cover-page.jpg",
+        "images":[
+          "/properties/los_angeles/calypso/calypso1.jpg",
+          "/properties/los_angeles/calypso/calypso2.jpg",
+          "/properties/los_angeles/calypso/calypso3.jpg",
+          "/properties/los_angeles/calypso/calypso4.jpg",
+          "/properties/los_angeles/calypso/calypso5.jpg",
+          "/properties/los_angeles/calypso/calypso6.jpg",
+          "/properties/los_angeles/calypso/calypso7.jpg",
+          "/properties/los_angeles/calypso/calypso8.jpg",
+          "/properties/los_angeles/calypso/calypso9.jpg"
+        ],
+        "review": {
+            "name" : "John Dilion",
+            "date" : "12-12-2024",
+            "rating" : 5,
+            "description" : "This property is amazing! Great location and amenities"
+        }
+    },
+    { 
+        "id" : 8, 
+        "name" : "Augustina",
+        "beds" : 1, 
+        "baths" : 1, 
+        "sqft" : 800,
+        "location" : {
+            "city" : "Los Angeles",
+            "state" : "CA"
+        },
+        "description": "Live in the heart of Los Angeles in this elegant one-bedroom apartment, where modern design meets the energy of the city. Located just minutes from Beverly Hills, The Grove, and West Hollywood, this stylish home features sleek interiors with hardwood-style flooring, quartz countertops, and convenient in-unit laundry. Enjoy access to resort-style amenities including a rooftop lounge, fitness center, and pool, all within a vibrant neighborhood filled with upscale shopping, award-winning dining, and cultural attractions. With proximity to UCLA, Cedar-Sinai, major studios, and freeways, this home offers both comfort and connectivity in one of LA’s most desirable areas.",
+        "guests": 4,
+        "numPics": 23,
+        "Living Room": [
+          "Large Comfortable Sofa",
+          "4K Smart TV",
+          "Comfy Accent Chairs",
+          "Stylish Coffee Tables",
+          "Reading Lamps",
+          "Work desk with chair"
+        ],
+        "Kitchen & Dining": [
+          "Microwave",
+          "Stove",
+          "Toaster",
+          "Blender",
+          "Coffee Maker",
+          "Double Door Refrigerator/Freezer",
+          "Dishwasher",
+          "Sink – Hot & Cold Water",
+          "Plates",
+          "Glasses",
+          "Silverware",
+          "Pots & Pans"
+        ],
+        "Bedroom": [
+          "King-Size Bed with Premium Linens, Sheets, and Pillows",
+          "Walk-In Closet with Hangers and Shelves",
+          "Night Stands with Reading Lamps",
+          "Full Body Mirrors",
+          "Queen-size air mattress is available with linens, sheets, and blankets"
+        ],
+        "Bathroom": [
+          "Shower",
+          "Vanity",
+          "Mirror",
+          "Toilet",
+          "Towels",
+          "Hair Dryer"
+        ],
+        "Guest Access": [
+          "The apartment is exclusively yours, with full privacy throughout your stay—relax, recharge, and enjoy your home away from home."
+        ],
+        "Amenities": [
+          "High-Speed Wi-Fi",
+          "Self Check-In",
+          "Air Conditioning",
+          "Heating",
+          "Iron/Board/Steamer",
+          "Washer/Dryer",
+          "The home is part of a luxury residential community that provides access to:",
+          "Fitness Center",
+          "Lush Gardens with Cozy Lounge Areas",
+          "Market and Coffee Shop",
+          "EV Charger",
+          "Free Parking"
+        ],
+        "Other Things to Note": [
+          "PET-FRIENDLY HOME - Bring your furry companions along to enjoy the city with you—LA is full of dog parks, trails, and pet-friendly cafes.",
+          "CLEANING & SANITIZATION - We thoroughly clean and sanitize the space after each stay to ensure your health, comfort, and safety.",
+          "NO SMOKING INSIDE - Smoking indoors is strictly prohibited. A professional cleaning fee will apply if any evidence of smoking is found.",
+          "NO SHOES INSIDE THE APARTMENT - Help keep the space clean and welcoming by removing your shoes at the door.",
+          "NO PARTIES/EVENTS - Out of respect for neighbors and community rules, parties and events are not allowed. The unit is equipped with a Minut Smart Home system for noise monitoring and a Ring doorbell for occupancy verification."
+        ],
+        "cover_image":"/properties/los_angeles/augustina/cover-page.jpg",
+        "images":[
+          "/properties/los_angeles/augustina/augustina1.jpg",
+          "/properties/los_angeles/augustina/augustina2.jpg",
+          "/properties/los_angeles/augustina/augustina3.jpg",
+          "/properties/los_angeles/augustina/augustina4.jpg",
+          "/properties/los_angeles/augustina/augustina5.jpg",
+          "/properties/los_angeles/augustina/augustina6.jpg",
+          "/properties/los_angeles/augustina/augustina7.jpg",
+          "/properties/los_angeles/augustina/augustina8.jpg",
+          "/properties/los_angeles/augustina/augustina9.jpg",
+          "/properties/los_angeles/augustina/augustina10.jpg",
+          "/properties/los_angeles/augustina/augustina11.jpg",
+          "/properties/los_angeles/augustina/augustina12.jpg",
+          "/properties/los_angeles/augustina/augustina13.jpg",
+          "/properties/los_angeles/augustina/augustina14.jpg",
+          "/properties/los_angeles/augustina/augustina15.jpg",
+          "/properties/los_angeles/augustina/augustina16.jpg",
+          "/properties/los_angeles/augustina/augustina17.jpg"
+        ],
+        "review": {
+            "name" : "John Dilion",
+            "date" : "12-12-2024",
+            "rating" : 5,
+            "description" : "This property is amazing! Great location and amenities"
+        }
+    },
+    { 
+        "id" : 9, 
+        "name" : "Sydney",
+        "beds" : 1, 
+        "baths" : 1, 
+        "sqft" : 850,
+        "location" : {
+            "city" : "San Diego",
+            "state" : "CA"
+        },
+        "description": "Experience the best of coastal living in this modern one-bedroom apartment located in the heart of San Diego. Just minutes from La Jolla, Downtown, and Balboa Park, this stylish retreat offers sleek interiors with hardwood-style flooring, quartz countertops, and convenient in-unit laundry. Enjoy resort-style amenities including a rooftop lounge, fitness center, and pool—all in a walkable neighborhood close to world-class beaches, renowned restaurants, and vibrant cultural attractions. With easy access to UC San Diego, Rady Children’s Hospital, and major freeways, this home is perfect for professionals, families, and long-term guests seeking comfort and convenience in one of California’s most livable cities.",
+        "guests": 4,
+        "numPics": 23,
+        "Living Room": [
+          "Large Comfortable Sofa",
+          "4K Smart TV",
+          "Comfy Accent Chairs",
+          "Stylish Coffee Tables",
+          "Reading Lamps",
+          "Work desk with chair"
+        ],
+        "Kitchen & Dining": [
+          "Microwave",
+          "Stove",
+          "Toaster",
+          "Blender",
+          "Coffee Maker",
+          "Double Door Refrigerator/Freezer",
+          "Dishwasher",
+          "Sink – Hot & Cold Water",
+          "Plates",
+          "Glasses",
+          "Silverware",
+          "Pots & Pans"
+        ],
+        "Bedroom": [
+          "King-Size Bed with Premium Linens, Sheets, and Pillows",
+          "Walk-In Closet with Hangers and Shelves",
+          "Night Stands with Reading Lamps",
+          "Full Body Mirrors",
+          "Queen-size air mattress is available with linens, sheets, and blankets"
+        ],
+        "Bathroom": [
+          "Shower",
+          "Vanity",
+          "Mirror",
+          "Toilet",
+          "Towels",
+          "Hair Dryer"
+        ],
+        "Guest Access": [
+          "The apartment is exclusively yours, with full privacy throughout your stay—relax, recharge, and enjoy your home away from home."
+        ],
+        "Amenities": [
+          "High-Speed Wi-Fi",
+          "Self Check-In",
+          "Air Conditioning",
+          "Heating",
+          "Iron/Board/Steamer",
+          "Washer/Dryer",
+          "The home is part of a luxury residential community that provides access to:",
+          "Fitness Center",
+          "Lush Gardens with Cozy Lounge Areas",
+          "Market and Coffee Shop",
+          "EV Charger",
+          "Free Parking"
+        ],
+        "Other Things to Note": [
+          "PET-FRIENDLY HOME - Bring your furry companions along to enjoy the coastal trails, parks, and pet-friendly patios that San Diego is famous for.",
+          "CLEANING & SANITIZATION - We thoroughly clean and sanitize the space after each stay to ensure your health, comfort, and peace of mind.",
+          "NO SMOKING INSIDE - Smoking indoors is strictly prohibited. A professional cleaning fee will apply if any evidence of smoking is found.",
+          "NO SHOES INSIDE THE APARTMENT - Help us maintain the cleanliness and comfort of the space by removing your shoes at the door.",
+          "NO PARTIES/EVENTS - Parties and gatherings are not allowed. The property is equipped with a Minut Smart Home system for noise monitoring and a Ring doorbell for occupancy verification."
+        ],
+        "cover_image":"/properties/san_diego/sydney/cover-page.jpg",
+        "images":[
+          "/properties/san_diego/sydney/sydney1.jpg",
+          "/properties/san_diego/sydney/sydney2.jpg",
+          "/properties/san_diego/sydney/sydney3.jpg",
+          "/properties/san_diego/sydney/sydney4.jpg",
+          "/properties/san_diego/sydney/sydney5.jpg",
+          "/properties/san_diego/sydney/sydney6.jpg",
+          "/properties/san_diego/sydney/sydney7.jpg",
+          "/properties/san_diego/sydney/sydney8.jpg",
+          "/properties/san_diego/sydney/sydney9.jpg",
+          "/properties/san_diego/sydney/sydney10.jpg"
+        ],
+        "review": {
+            "name" : "John Dilion",
+            "date" : "12-12-2024",
+            "rating" : 5,
+            "description" : "This property is amazing! Great location and amenities"
+        }
+    },
+    { 
+        "id" : 10, 
+        "name" : "Marina",
+        "beds" : 1, 
+        "baths" : 1, 
+        "sqft" : 850,
+        "location" : {
+            "city" : "San Diego",
+            "state" : "CA"
+        },
+        "description": " Experience the best of coastal living in this modern one-bedroom apartment located in the heart of San Diego. Just minutes from La Jolla, Downtown, and Balboa Park, this stylish retreat offers sleek interiors with hardwood-style flooring, quartz countertops, and convenient in-unit laundry. Enjoy resort-style amenities including a rooftop lounge, fitness center, and pool—all in a walkable neighborhood close to world-class beaches, renowned restaurants, and vibrant cultural attractions. With easy access to UC San Diego, Rady Children’s Hospital, and major freeways, this home is perfect for professionals, families, and long-term guests seeking comfort and convenience in one of California’s most livable cities.",
+        "guests": 4,
+        "numPics": 23,
+        "Living Room": [
+          "Large Comfortable Sofa",
+          "4K Smart TV",
+          "Comfy Accent Chairs",
+          "Stylish Coffee Tables",
+          "Reading Lamps",
+          "Work desk with chair"
+        ],
+        "Kitchen & Dining": [
+          "Microwave",
+          "Stove",
+          "Toaster",
+          "Blender",
+          "Coffee Maker",
+          "Double Door Refrigerator/Freezer",
+          "Dishwasher",
+          "Sink – Hot & Cold Water",
+          "Plates",
+          "Glasses",
+          "Silverware",
+          "Pots & Pans"
+        ],
+        "Bedroom": [
+          "King-Size Bed with Premium Linens, Sheets, and Pillows",
+          "Walk-In Closet with Hangers and Shelves",
+          "Night Stands with Reading Lamps",
+          "Full Body Mirrors",
+          "Queen-size air mattress is available with linens, sheets, and blankets"
+        ],
+        "Bathroom": [
+          "Shower",
+          "Vanity",
+          "Mirror",
+          "Toilet",
+          "Towels",
+          "Hair Dryer"
+        ],
+        "Guest Access": [
+          "The apartment is exclusively yours, with full privacy throughout your stay—relax, recharge, and enjoy your home away from home."
+        ],
+        "Amenities": [
+          "High-Speed Wi-Fi",
+          "Self Check-In",
+          "Air Conditioning",
+          "Heating",
+          "Iron/Board/Steamer",
+          "Washer/Dryer",
+          "The home is part of a luxury residential community that provides access to:",
+          "Fitness Center",
+          "Lush Gardens with Cozy Lounge Areas",
+          "Market and Coffee Shop",
+          "EV Charger",
+          "Free Parking"
+        ],
+        "Other Things to Note": [
+          "PET-FRIENDLY HOME - Bring your furry companions along to enjoy the coastal trails, parks, and pet-friendly patios that San Diego is famous for.",
+          "CLEANING & SANITIZATION - We thoroughly clean and sanitize the space after each stay to ensure your health, comfort, and peace of mind.",
+          "NO SMOKING INSIDE - Smoking indoors is strictly prohibited. A professional cleaning fee will apply if any evidence of smoking is found.",
+          "NO SHOES INSIDE THE APARTMENT - Help us maintain the cleanliness and comfort of the space by removing your shoes at the door.",
+          "NO PARTIES/EVENTS - Parties and gatherings are not allowed. The property is equipped with a Minut Smart Home system for noise monitoring and a Ring doorbell for occupancy verification."
+        ],
+        "cover_image":"/properties/san_diego/marina/cover-page.jpg",
+        "images":[
+          "/properties/san_diego/marina/marina1.jpg",
+          "/properties/san_diego/marina/marina2.jpg",
+          "/properties/san_diego/marina/marina3.jpg",
+          "/properties/san_diego/marina/marina4.jpg",
+          "/properties/san_diego/marina/marina5.jpg",
+          "/properties/san_diego/marina/marina6.jpg",
+          "/properties/san_diego/marina/marina7.jpg",
+          "/properties/san_diego/marina/marina8.jpg",
+          "/properties/san_diego/marina/marina9.jpg",
+          "/properties/san_diego/marina/marina10.jpg"
+        ],
+        "review": {
+            "name" : "John Dilion",
+            "date" : "12-12-2024",
+            "rating" : 5,
+            "description" : "This property is amazing! Great location and amenities"
+        }
+    },
+    { 
+        "id" : 11, 
+        "name" : "Magnolia",
+        "beds" : 1, 
+        "baths" : 1, 
+        "sqft" : 742,
+        "location" : {
+            "city" : "San Diego",
+            "state" : "CA"
+        },
+        "description": "Experience the best of coastal living in this modern one-bedroom apartment located in the heart of San Diego. Just minutes from La Jolla, Downtown, and Balboa Park, this stylish retreat offers sleek interiors with hardwood-style flooring, quartz countertops, and convenient in-unit laundry. Enjoy resort-style amenities including a rooftop lounge, fitness center, and pool—all in a walkable neighborhood close to world-class beaches, renowned restaurants, and vibrant cultural attractions. With easy access to UC San Diego, Rady Children’s Hospital, and major freeways, this home is perfect for professionals, families, and long-term guests seeking comfort and convenience in one of California’s most livable cities.",
+        "guests": 4,
+        "numPics": 23,
+        "Living Room": [
+          "Large Comfortable Sofa",
+          "4K Smart TV",
+          "Comfy Accent Chairs",
+          "Stylish Coffee Tables",
+          "Reading Lamps",
+          "Work desk with chair"
+        ],
+        "Kitchen & Dining": [
+          "Microwave",
+          "Stove",
+          "Toaster",
+          "Blender",
+          "Coffee Maker",
+          "Double Door Refrigerator/Freezer",
+          "Dishwasher",
+          "Sink – Hot & Cold Water",
+          "Plates",
+          "Glasses",
+          "Silverware",
+          "Pots & Pans"
+        ],
+        "Bedroom": [
+          "King-Size Bed with Premium Linens, Sheets, and Pillows",
+          "Walk-In Closet with Hangers and Shelves",
+          "Night Stands with Reading Lamps",
+          "Full Body Mirrors",
+          "Queen-size air mattress is available with linens, sheets, and blankets"
+        ],
+        "Bathroom": [
+          "Shower",
+          "Vanity",
+          "Mirror",
+          "Toilet",
+          "Towels",
+          "Hair Dryer"
+        ],
+        "Guest Access": [
+          "The apartment is exclusively yours, with full privacy throughout your stay—relax, recharge, and enjoy your home away from home."
+        ],
+        "Amenities": [
+          "High-Speed Wi-Fi",
+          "Self Check-In",
+          "Air Conditioning",
+          "Heating",
+          "Iron/Board/Steamer",
+          "Washer/Dryer",
+          "The home is part of a luxury residential community that provides access to:",
+          "Fitness Center",
+          "Lush Gardens with Cozy Lounge Areas",
+          "Market and Coffee Shop",
+          "EV Charger",
+          "Free Parking"
+        ],
+        "Other Things to Note": [
+          "PET-FRIENDLY HOME - Bring your furry companions along to enjoy the coastal trails, parks, and pet-friendly patios that San Diego is famous for.",
+          "CLEANING & SANITIZATION - We thoroughly clean and sanitize the space after each stay to ensure your health, comfort, and peace of mind.",
+          "NO SMOKING INSIDE - Smoking indoors is strictly prohibited. A professional cleaning fee will apply if any evidence of smoking is found.",
+          "NO SHOES INSIDE THE APARTMENT - Help us maintain the cleanliness and comfort of the space by removing your shoes at the door.",
+          "NO PARTIES/EVENTS - Parties and gatherings are not allowed. The property is equipped with a Minut Smart Home system for noise monitoring and a Ring doorbell for occupancy verification."
+        ],
+        "cover_image":"/properties/san_diego/magnolia/cover-page.jpg",
+        "images":[
+          "/properties/san_diego/magnolia/magnolia1.jpg",
+          "/properties/san_diego/magnolia/magnolia2.jpg",
+          "/properties/san_diego/magnolia/magnolia3.jpg",
+          "/properties/san_diego/magnolia/magnolia4.jpg",
+          "/properties/san_diego/magnolia/magnolia5.jpg",
+          "/properties/san_diego/magnolia/magnolia6.jpg",
+          "/properties/san_diego/magnolia/magnolia7.jpg",
+          "/properties/san_diego/magnolia/magnolia8.jpg",
+          "/properties/san_diego/magnolia/magnolia9.jpg",
+          "/properties/san_diego/magnolia/magnolia10.jpg",
+          "/properties/san_diego/magnolia/magnolia11.jpg"
+        ],
+        "review": {
+            "name" : "John Dilion",
+            "date" : "12-12-2024",
+            "rating" : 5,
+            "description" : "This property is amazing! Great location and amenities"
+        }
+    },
+    { 
+        "id" : 12, 
+        "name" : "Casa Coronado",
+        "beds" : 1, 
+        "baths" : 1, 
+        "sqft" : 850,
+        "location" : {
+            "city" : "San Diego",
+            "state" : "CA"
+        },
+        "description": "Experience the best of coastal living in this modern one-bedroom apartment located in the heart of San Diego. Just minutes from La Jolla, Downtown, and Balboa Park, this stylish retreat offers sleek interiors with hardwood-style flooring, quartz countertops, and convenient in-unit laundry. Enjoy resort-style amenities including a rooftop lounge, fitness center, and pool—all in a walkable neighborhood close to world-class beaches, renowned restaurants, and vibrant cultural attractions. With easy access to UC San Diego, Rady Children’s Hospital, and major freeways, this home is perfect for professionals, families, and long-term guests seeking comfort and convenience in one of California’s most livable cities.",
+        "guests": 4,
+        "numPics": 23,
+        "Living Room": [
+          "Large Comfortable Sofa",
+          "4K Smart TV",
+          "Comfy Accent Chairs",
+          "Stylish Coffee Tables",
+          "Reading Lamps",
+          "Work desk with chair"
+        ],
+        "Kitchen & Dining": [
+          "Microwave",
+          "Stove",
+          "Toaster",
+          "Blender",
+          "Coffee Maker",
+          "Double Door Refrigerator/Freezer",
+          "Dishwasher",
+          "Sink – Hot & Cold Water",
+          "Plates",
+          "Glasses",
+          "Silverware",
+          "Pots & Pans"
+        ],
+        "Bedroom": [
+          "King-Size Bed with Premium Linens, Sheets, and Pillows",
+          "Walk-In Closet with Hangers and Shelves",
+          "Night Stands with Reading Lamps",
+          "Full Body Mirrors",
+          "Queen-size air mattress is available with linens, sheets, and blankets"
+        ],
+        "Bathroom": [
+          "Shower",
+          "Vanity",
+          "Mirror",
+          "Toilet",
+          "Towels",
+          "Hair Dryer"
+        ],
+        "Guest Access": [
+          "The apartment is exclusively yours, with full privacy throughout your stay—relax, recharge, and enjoy your home away from home."
+        ],
+        "Amenities": [
+          "High-Speed Wi-Fi",
+          "Self Check-In",
+          "Air Conditioning",
+          "Heating",
+          "Iron/Board/Steamer",
+          "Washer/Dryer",
+          "The home is part of a luxury residential community that provides access to:",
+          "Fitness Center",
+          "Lush Gardens with Cozy Lounge Areas",
+          "Market and Coffee Shop",
+          "EV Charger",
+          "Free Parking"
+        ],
+        "Other Things to Note": [
+          "PET-FRIENDLY HOME - Bring your furry companions along to enjoy the coastal trails, parks, and pet-friendly patios that San Diego is famous for.",
+          "CLEANING & SANITIZATION - We thoroughly clean and sanitize the space after each stay to ensure your health, comfort, and peace of mind.",
+          "NO SMOKING INSIDE - Smoking indoors is strictly prohibited. A professional cleaning fee will apply if any evidence of smoking is found.",
+          "NO SHOES INSIDE THE APARTMENT - Help us maintain the cleanliness and comfort of the space by removing your shoes at the door.",
+          "NO PARTIES/EVENTS - Parties and gatherings are not allowed. The property is equipped with a Minut Smart Home system for noise monitoring and a Ring doorbell for occupancy verification."
+        ],
+        "cover_image":"/properties/san_diego/casa_coronado/cover-page.jpg",
+        "images":[
+          "/properties/san_diego/casa_coronado/casa_coronado1.jpg",
+          "/properties/san_diego/casa_coronado/casa_coronado2.jpg",
+          "/properties/san_diego/casa_coronado/casa_coronado3.jpg",
+          "/properties/san_diego/casa_coronado/casa_coronado4.jpg",
+          "/properties/san_diego/casa_coronado/casa_coronado5.jpg",
+          "/properties/san_diego/casa_coronado/casa_coronado6.jpg",
+          "/properties/san_diego/casa_coronado/casa_coronado7.jpg",
+          "/properties/san_diego/casa_coronado/casa_coronado8.jpg",
+          "/properties/san_diego/casa_coronado/casa_coronado9.jpg",
+          "/properties/san_diego/casa_coronado/casa_coronado10.jpg",
+          "/properties/san_diego/casa_coronado/casa_coronado11.jpg",
+          "/properties/san_diego/casa_coronado/casa_coronado12.jpg",
+          "/properties/san_diego/casa_coronado/casa_coronado13.jpg",
+          "/properties/san_diego/casa_coronado/casa_coronado14.jpg"
+        ],
+        "review": {
+            "name" : "John Dilion",
+            "date" : "12-12-2024",
+            "rating" : 5,
+            "description" : "This property is amazing! Great location and amenities"
+        }
+    },
+    { 
+        "id" : 13, 
+        "name" : "Medina",
+        "beds" : 1, 
+        "baths" : 1, 
+        "sqft" : 778,
+        "location" : {
+            "city" : "Seattle",
+            "state" : "WA"
+        },
+        "description": "Experience elevated urban living in this contemporary one-bedroom apartment in the heart of Seattle. Located just minutes from South Lake Union, Capitol Hill, and the iconic Pike Place Market, this thoughtfully designed home features modern interiors with hardwood-style flooring, quartz countertops, and in-unit laundry. Enjoy access to luxury amenities like a rooftop lounge with skyline views, a fitness center, and a community workspace—all within a walkable neighborhood known for its cafés, breweries, and tech-driven energy. With close proximity to Amazon HQ, University of Washington, and major medical centers, this home blends comfort, productivity, and the best of the Pacific Northwest.",
+        "guests": 4,
+        "numPics": 23,
+        "Living Room": [
+          "Large Comfortable Sofa",
+          "4K Smart TV",
+          "Comfy Accent Chairs",
+          "Stylish Coffee Tables",
+          "Reading Lamps",
+          "Work desk with chair"
+        ],
+        "Kitchen & Dining": [
+          "Microwave",
+          "Stove",
+          "Toaster",
+          "Blender",
+          "Coffee Maker",
+          "Double Door Refrigerator/Freezer",
+          "Dishwasher",
+          "Sink – Hot & Cold Water",
+          "Plates",
+          "Glasses",
+          "Silverware",
+          "Pots & Pans"
+        ],
+        "Bedroom": [
+          "King-Size Bed with Premium Linens, Sheets, and Pillows",
+          "Walk-In Closet with Hangers and Shelves",
+          "Night Stands with Reading Lamps",
+          "Full Body Mirrors",
+          "Queen-size air mattress is available with linens, sheets, and blankets"
+        ],
+        "Bathroom": [
+          "Shower",
+          "Vanity",
+          "Mirror",
+          "Toilet",
+          "Towels",
+          "Hair Dryer"
+        ],
+        "Guest Access": [
+          "The apartment is exclusively yours, with full privacy throughout your stay—relax, recharge, and enjoy your home away from home."
+        ],
+        "Amenities": [
+          "High-Speed Wi-Fi",
+          "Self Check-In",
+          "Air Conditioning",
+          "Heating",
+          "Iron/Board/Steamer",
+          "Washer/Dryer",
+          "The home is part of a luxury residential community that provides access to:",
+          "Fitness Center",
+          "Rooftop Lounge with City Views",
+          "Co-Working Spaces",
+          "Market and Coffee Shop",
+          "EV Charger",
+          "Free Parking"
+        ],
+        "Other Things to Note": [
+          "PET-FRIENDLY HOME - Bring your furry companions to enjoy nearby dog parks, waterfront trails, and Seattle’s pet-friendly culture.",
+          "CLEANING & SANITIZATION - We use a detailed cleaning and sanitizing process after every stay to ensure your health, comfort, and peace of mind.",
+          "NO SMOKING INSIDE - Smoking indoors is not permitted. A cleaning fee will be applied if evidence of smoking is found.",
+          "NO SHOES INSIDE THE APARTMENT - Please help maintain the cleanliness of the home by removing your shoes at the entrance.",
+          "NO PARTIES/EVENTS - To maintain a peaceful environment, parties and events are strictly prohibited. The unit features a Minut Smart Home device for noise monitoring and a Ring doorbell to verify occupancy."
+        ],
+        "cover_image":"/properties/seattle/medina/cover-page.jpg",
+        "images":[
+          "/properties/seattle/medina/medina1.jpg",
+          "/properties/seattle/medina/medina2.jpg",
+          "/properties/seattle/medina/medina3.jpg",
+          "/properties/seattle/medina/medina4.jpg",
+          "/properties/seattle/medina/medina5.jpg",
+          "/properties/seattle/medina/medina6.jpg",
+          "/properties/seattle/medina/medina7.jpg",
+          "/properties/seattle/medina/medina8.jpg",
+          "/properties/seattle/medina/medina9.jpg",
+          "/properties/seattle/medina/medina10.jpg",
+          "/properties/seattle/medina/medina11.jpg",
+          "/properties/seattle/medina/medina12.jpg",
+          "/properties/seattle/medina/medina13.jpg",
+          "/properties/seattle/medina/medina14.jpg",
+          "/properties/seattle/medina/medina15.jpg",
+          "/properties/seattle/medina/medina16.jpg",
+          "/properties/seattle/medina/medina17.jpg",
+          "/properties/seattle/medina/medina18.jpg",
+          "/properties/seattle/medina/medina19.jpg",
+          "/properties/seattle/medina/medina20.jpg",
+          "/properties/seattle/medina/medina21.jpg",
+          "/properties/seattle/medina/medina22.jpg",
+          "/properties/seattle/medina/medina23.jpg"
+        ],
+        "review": {
+            "name" : "John Dilion",
+            "date" : "12-12-2024",
+            "rating" : 5,
+            "description" : "This property is amazing! Great location and amenities"
+        }
+    },
+    { 
+        "id" : 14, 
+        "name" : "Hanna",
+        "beds" : 1, 
+        "baths" : 1, 
+        "sqft" : 880,
+        "location" : {
+            "city" : "Seattle",
+            "state" : "WA"
+        },
+        "description": "Experience elevated urban living in this contemporary one-bedroom apartment in the heart of Seattle. Located just minutes from South Lake Union, Capitol Hill, and the iconic Pike Place Market, this thoughtfully designed home features modern interiors with hardwood-style flooring, quartz countertops, and in-unit laundry. Enjoy access to luxury amenities like a rooftop lounge with skyline views, a fitness center, and a community workspace—all within a walkable neighborhood known for its cafés, breweries, and tech-driven energy. With close proximity to Amazon HQ, University of Washington, and major medical centers, this home blends comfort, productivity, and the best of the Pacific Northwest.",
+        "guests": 4,
+        "numPics": 23,
+        "Living Room": [
+          "Large Comfortable Sofa",
+          "4K Smart TV",
+          "Comfy Accent Chairs",
+          "Stylish Coffee Tables",
+          "Reading Lamps",
+          "Work desk with chair"
+        ],
+        "Kitchen & Dining": [
+          "Microwave",
+          "Stove",
+          "Toaster",
+          "Blender",
+          "Coffee Maker",
+          "Double Door Refrigerator/Freezer",
+          "Dishwasher",
+          "Sink – Hot & Cold Water",
+          "Plates",
+          "Glasses",
+          "Silverware",
+          "Pots & Pans"
+        ],
+        "Bedroom": [
+          "King-Size Bed with Premium Linens, Sheets, and Pillows",
+          "Walk-In Closet with Hangers and Shelves",
+          "Night Stands with Reading Lamps",
+          "Full Body Mirrors",
+          "Queen-size air mattress is available with linens, sheets, and blankets"
+        ],
+        "Bathroom": [
+          "Shower",
+          "Vanity",
+          "Mirror",
+          "Toilet",
+          "Towels",
+          "Hair Dryer"
+        ],
+        "Guest Access": [
+          "The apartment is exclusively yours, with full privacy throughout your stay—relax, recharge, and enjoy your home away from home."
+        ],
+        "Amenities": [
+          "High-Speed Wi-Fi",
+          "Self Check-In",
+          "Air Conditioning",
+          "Heating",
+          "Iron/Board/Steamer",
+          "Washer/Dryer",
+          "The home is part of a luxury residential community that provides access to:",
+          "Fitness Center",
+          "Rooftop Lounge with City Views",
+          "Co-Working Spaces",
+          "Market and Coffee Shop",
+          "EV Charger",
+          "Free Parking"
+        ],
+        "Other Things to Note": [
+          "PET-FRIENDLY HOME - Bring your furry companions to enjoy nearby dog parks, waterfront trails, and Seattle’s pet-friendly culture.",
+          "CLEANING & SANITIZATION - We use a detailed cleaning and sanitizing process after every stay to ensure your health, comfort, and peace of mind.",
+          "NO SMOKING INSIDE - Smoking indoors is not permitted. A cleaning fee will be applied if evidence of smoking is found.",
+          "NO SHOES INSIDE THE APARTMENT - Please help maintain the cleanliness of the home by removing your shoes at the entrance.",
+          "NO PARTIES/EVENTS - To maintain a peaceful environment, parties and events are strictly prohibited. The unit features a Minut Smart Home device for noise monitoring and a Ring doorbell to verify occupancy."
+        ],
+        "cover_image":"/properties/seattle/hanna/cover-page.jpg",
+        "images":[
+          "/properties/seattle/hanna/hanna1.jpg",
+          "/properties/seattle/hanna/hanna2.jpg",
+          "/properties/seattle/hanna/hanna3.jpg",
+          "/properties/seattle/hanna/hanna4.jpg",
+          "/properties/seattle/hanna/hanna5.jpg",
+          "/properties/seattle/hanna/hanna6.jpg",
+          "/properties/seattle/hanna/hanna7.jpg",
+          "/properties/seattle/hanna/hanna8.jpg",
+          "/properties/seattle/hanna/hanna9.jpg",
+          "/properties/seattle/hanna/hanna10.jpg",
+          "/properties/seattle/hanna/hanna11.jpg",
+          "/properties/seattle/hanna/hanna12.jpg",
+          "/properties/seattle/hanna/hanna13.jpg",
+          "/properties/seattle/hanna/hanna14.jpg",
+          "/properties/seattle/hanna/hanna15.jpg"
+        ],
+        "review": {
+            "name" : "John Dilion",
+            "date" : "12-12-2024",
+            "rating" : 5,
+            "description" : "This property is amazing! Great location and amenities"
+        }
+    }
 ]
