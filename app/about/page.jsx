@@ -1,33 +1,16 @@
+'use client'
 import Link from "next/link";
+import { useLazyBackground } from "@/utils/useLazyBackground";
 
 export default function About() {
-
+  const bg1 = useLazyBackground("/aboutpage/aboutPage1.jpg");
+  const bg2 = useLazyBackground("/aboutpage/aboutPage2.jpg");
   return (
     <main>
-      {/* <div
-        className="h-[700px] md:min-h-screen flex items-center justify-start p-8 bg-cover bg-center relative"
-        style={{backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(/landmark.jpg)`}}
-      >
-        <div className="w-full md:w-2/3  text-white bg-black/30 backdrop-blur-sm p-6 md:p-10 mt-50">
-            <h1 className="mb-4 text-4xl md:text-6xl font-bold text-left">Who We Are & What We Offer</h1>
-            <p className="text-left text-3xl">   
-              At Landmark Residences, we provide premium, move-in ready homes for:
-            </p>
-            <ul className="mt-10 text-2xl ml-[3rem]">
-              <li>{" "}Business Travelers</li>
-              <li>{" "}Healthcare Professionals</li>
-              <li>{" "}Insurance Housing</li>
-              <li>{" "}Relocation Housing</li>
-              <li>{" "}Academic Housing</li>
-            </ul>
-        </div>
-      </div> */}
-
       <div
         className="min-h-[220vh] bg-cover bg-center flex flex-col items-center justify-start px-6 py-12"
-        style={{ backgroundImage: "url(/aboutPage1.jpg)" }}
+        style={{ backgroundImage: `url(${bg1})` }}
       >
-        {/* Heading */}
         <div className="text-center mb-18 mt-18">
           <h2
             className="text-white text-3xl md:text-5xl font-bold"
@@ -75,14 +58,14 @@ export default function About() {
         </div>
 
         {/* Connect Button */}
-        <button className="px-6 py-2 text-xl rounded-full bg-[#69664c] text-white font-semibold hover:bg-[#5a5940] transition">
+        <Link href="/contact" className="px-6 py-2 text-xl rounded-full bg-[#69664c] text-white font-semibold hover:bg-[#5a5940] transition">
           Connect with us
-        </button>
+        </Link>
       </div>
 
       <div
         className="min-h-[200vh] bg-cover bg-center flex flex-col items-center justify-center px-6 py-12"
-        style={{ backgroundImage: "url(/aboutPage2.jpg)" }}
+        style={{ backgroundImage: `url(${bg2})` }}
       >
         {/* Content Box */}
         <div className="max-w-3xl bg-[#69664c]/70 text-white p-6 md:p-8 rounded-md shadow-lg mb-8 text-sm md:text-base leading-relaxed">
@@ -93,13 +76,13 @@ export default function About() {
               For policyholders displaced by fire, water damage and companies/families/individuals who are in the process
               of moving and relocating.
             </p>
-            <ul className="list-disc list-inside mt-2 space-y-1">
+            <div className=" mt-2 space-y-1">
               <li>Fast placement</li>
               <li>Fully furnished and family-friendly</li>
               <li>All utilities included</li>
               <li>No setup required</li>
               <li>Tailored to your situation</li>
-            </ul>
+            </div>
           </div>
 
           {/* Healthcare Heroes */}
@@ -108,33 +91,33 @@ export default function About() {
             <p className="mt-1 text-gray-100">
               Ideal for traveling nurses, doctors, specialists, residents, and other professionals.
             </p>
-            <ul className="list-disc list-inside mt-2 space-y-1">
+            <div className="mt-2 space-y-1">
               <li>Located near major hospitals</li>
               <li>Quiet, clean spaces</li>
               <li>Flexible lease terms</li>
-            </ul>
+            </div>
           </div>
 
           {/* Academic Housing */}
           <div className="mb-4">
             <h3 className="font-bold uppercase">Academic Housing</h3>
             <p className="mt-1 text-gray-100">Perfect for students, researchers, and faculty.</p>
-            <ul className="list-disc list-inside mt-2 space-y-1">
+            <div className=" mt-2 space-y-1">
               <li>Study-ready furnishings</li>
               <li>Month-to-month flexibility</li>
               <li>Close to universities</li>
-            </ul>
+            </div>
           </div>
 
           {/* Business Travel */}
           <div>
             <h3 className="font-bold uppercase">Business Travel</h3>
             <p className="mt-1 text-gray-100">For companies who need housing for their employees.</p>
-            <ul className="list-disc list-inside mt-2 space-y-1">
+            <div className=" mt-2 space-y-1">
               <li>Corporate billing available</li>
               <li>Located close to major business centers</li>
               <li>Easy approval and quick setup process</li>
-            </ul>
+            </div>
           </div>
         </div>
 
@@ -149,76 +132,6 @@ export default function About() {
         </div>
       </div>
 
-
-      
-      {/* <div
-        className="h-[700px] md:min-h-screen flex items-center justify-start p-8 bg-cover bg-center relative"
-        style={{backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(/insurance.jpg)`}}
-      >
-        <div className="w-full md:w-1/2 max-w-3xl text-white bg-black/30 backdrop-blur-sm p-6 md:p-10 mt-80 ml-auto">
-            <h1 className="mb-4 text-4xl md:text-6xl font-bold text-left">Insurance Housing</h1>
-            <p className="text-left text-3xl">   
-              For policy holders displaced by fire, water, and other disasters.  
-            </p>
-            <ul className="mt-10 text-2xl ml-[3rem]">
-              <li>{" "}Fast Placement</li>
-              <li>{" "}Fully Furnished and Family Ready</li>
-              <li>{" "}All Utilities Included</li>
-            </ul>
-        </div>
-      </div>
-
-      <div
-        className="h-[700px] md:min-h-screen flex items-center justify-start p-8 bg-cover bg-center relative"
-        style={{backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(/healthcare.jpg)`}}
-      >
-        <div className="w-full md:w-1/2 max-w-3xl text-white bg-black/30 backdrop-blur-sm p-6 md:p-10 mt-80">
-            <h1 className="mb-4 text-4xl md:text-6xl font-bold text-left">Healthcare Professionals</h1>
-            <p className="text-left text-3xl">   
-              Ideal for traveling nurses, doctors, specialists, residents, and other professionals.
-            </p>
-            <ul className="mt-10 text-2xl ml-[3rem]">
-              <li>{" "}Near Major Hospitals</li>
-              <li>{" "}Quiet, Clean Spaces</li>
-              <li>{" "}Flexible Lease Terms</li>
-            </ul>
-        </div>
-      </div>  
-
-      <div
-        className="h-[700px] md:min-h-screen flex items-center justify-start p-8 bg-cover bg-center relative"
-        style={{backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(/business.jpg)`}}
-      >
-        <div className="w-full md:w-1/2 max-w-3xl text-white bg-black/30 backdrop-blur-sm p-6 md:p-10 mt-80 ml-auto">
-            <h1 className="mb-4 text-4xl md:text-6xl font-bold text-left">Business Travelers</h1>
-            <p className="text-left text-3xl">   
-             For companies & relocation services helping employees move.
-            </p>
-            <ul className="mt-10 text-2xl ml-[3rem]">
-              <li>{" "}Corporate Billing Available</li>
-              <li>{" "}Located Close to Business Districts</li>
-              <li>{" "}Easy Approval and Quick Setup</li>
-            </ul>
-        </div>
-      </div>
-
-      <div
-        className="h-[700px] md:min-h-screen flex items-center justify-start p-8 bg-cover bg-center relative"
-        style={{backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(/academic.jpg)`}}
-      >
-        <div className="w-full md:w-1/2 max-w-3xl text-white bg-black/30 backdrop-blur-sm p-6 md:p-10 mt-80">
-            <h1 className="mb-4 text-4xl md:text-6xl font-bold text-left">Academic Housing</h1>
-            <p className="text-left text-3xl">   
-             Perfect for students, researchers, and faculty.
-            </p>
-            <ul className="mt-10 text-2xl ml-[3rem]">
-              <li>{" "}Study-Ready Furnishings</li>
-              <li>{" "}Month-to-Month Flexibility</li>
-              <li>{" "}Close to Universities</li>
-            </ul>
-        </div>
-      </div> */}
-
-  </main>
+    </main>
   )
 }

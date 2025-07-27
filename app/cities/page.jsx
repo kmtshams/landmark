@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import cities from '../../public/cities.json';
+import blurData from '@/public/citiespage/blur/blurData.json';
+import Image from 'next/image';
 
 
 export default function Cities() {
   const cityData = Object.values(cities);
-  console.log("cityData", cityData)
 
   return (
     <main className='bg-[#97947c]'>
@@ -22,10 +23,14 @@ export default function Cities() {
             >
               {/* City Image */}
               <div className='w-full md:w-1/5 relative'>
-                <img
-                  src='/city1.jpg'
-                  alt='IRVINE, CA'
+                <Image
+                  src="/citiespage/city1.jpg"
+                  alt="IRVINE, CA"
+                  width={400}
+                  height={600}
                   className="w-full rounded-md object-cover"
+                  placeholder="blur"
+                  blurDataURL={blurData["city1.jpg"]}
                 />
                 <div className="absolute left-3 bottom-3 text-white">
                   <h3
@@ -61,10 +66,14 @@ export default function Cities() {
             >
               {/* City Image */}
               <div className='w-full md:w-1/5 relative'>
-                <img
-                  src='/city2.jpg'
-                  alt='Los Angeles, CA'
+                <Image
+                  src="/citiespage/city2.jpg"
+                  alt="Los Angeles, CA"
+                  width={400}
+                  height={600}
                   className="w-full rounded-md object-cover"
+                  placeholder="blur"
+                  blurDataURL={blurData["city2.jpg"]}
                 />
                 <div className="absolute left-3 bottom-3 text-white">
                   <h3
@@ -100,10 +109,14 @@ export default function Cities() {
             >
               {/* City Image */}
               <div className='w-full md:w-1/5 relative'>
-                <img
-                  src='/city3.jpg'
-                  alt='SAN DIEGO, CA'
+                <Image
+                  src="/citiespage/city3.jpg"
+                  alt="SAN DIEGO, CA"
+                  width={400}
+                  height={600}
                   className="w-full rounded-md object-cover"
+                  placeholder="blur"
+                  blurDataURL={blurData["city3.jpg"]}
                 />
                 <div className="absolute left-3 bottom-3 text-white">
                   <h3
@@ -139,10 +152,14 @@ export default function Cities() {
             >
               {/* City Image */}
               <div className='w-full md:w-1/5 relative'>
-                <img
-                  src='/city4.jpg'
-                  alt='SEATTLE, WA'
+                <Image
+                  src="/citiespage/city4.jpg"
+                  alt="SEATTLE, WA"
+                  width={400}
+                  height={600}
                   className="w-full rounded-md object-cover"
+                  placeholder="blur"
+                  blurDataURL={blurData["city4.jpg"]}
                 />
                 <div className="absolute left-3 bottom-3 text-white">
                   <h3
@@ -188,24 +205,6 @@ export default function Cities() {
           Explore Properties
         </Link>
       </section>
-      {/* <div
-        className="h-[700px] md:min-h-screen flex items-center justify-start p-8 bg-cover bg-center relative"
-        style={{backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(/2.png)`}}
-      >
-        <div className="w-full md:w-1/2 max-w-2xl text-white bg-black/30 backdrop-blur-sm p-6 md:p-10 mt-80">
-            <h1 className="mb-4 text-4xl md:text-6xl font-bold text-left">Cities</h1>
-            <p className="text-left text-base md:text-xl">
-            Explore Landmark<sup>®</sup> stays, available in different cities.
-            </p>
-        </div>
-      </div>
-
-
-    <div className="flex flex-wrap space-x-12 items-center justify-center">
-        {cityData.map((city, index) => (
-            <CityCard key={index} city={city} />
-        ))}
-    </div> */}
 
     </main>
   );

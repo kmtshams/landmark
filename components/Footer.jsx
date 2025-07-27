@@ -21,14 +21,14 @@ export default function Footer() {
         {/* Right Social Icons */}
         <div className="flex space-x-4">
           <a
-            href="https://www.tiktok.com/@staylandmark"
+            href="https://www.tiktok.com/@landmarkresidences"
             target="_blank"
             className="hover:text-gray-200"
           >
             <FaTiktok size={20} />
           </a>
           <a
-            href="https://www.instagram.com/staylandmark/"
+            href="https://www.instagram.com/landmarkresidences/"
             target="_blank"
             className="hover:text-gray-200"
           >

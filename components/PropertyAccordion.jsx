@@ -36,11 +36,11 @@ export default function PropertyAccordion({ property }) {
                     {openIndex === index && (
                         <div className="px-4 pb-3 text-sm text-[#333]">
                             {Array.isArray(section.content) ? (
-                                <ul className="list-disc pl-5 space-y-1">
+                                <div className="pl-5 space-y-1">
                                     {section.content.map((item, i) => (
                                         <li key={i}>{item}</li>
                                     ))}
-                                </ul>
+                                </div>
                             ) : (
                                 <p>{section.content}</p>
                             )}
